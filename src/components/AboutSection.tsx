@@ -19,7 +19,7 @@ const AboutSection = () => {
             <div className="space-y-6 text-lg md:text-xl text-muted-foreground leading-relaxed">
               <p>
                 Welcome to the <span className="text-primary font-semibold">ultimate tech adventure</span> of 2025! 
-                Tech Titans Club proudly presents TechFest 2025 – an interstellar journey through the cosmos of innovation.
+                Xavier's TechByte Society proudly presents TechFest 2025 – an interstellar journey through the cosmos of innovation.
               </p>
               
               <p>

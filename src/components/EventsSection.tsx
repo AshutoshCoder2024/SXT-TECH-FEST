@@ -4,7 +4,7 @@ const events = [
   {
     title: "🤖 AI Battle",
     description: "Compete to build the smartest AI bot in an intense coding arena.",
-    date: "March 15, 2025",
+    date: "AUGUST 28, 2025",
     time: "10:00 AM - 12:00 PM",
     location: "Mission Control Lab (CSE Block)",
     icon: "🤖"
@@ -12,7 +12,7 @@ const events = [
   {
     title: "💻 Code Odyssey",
     description: "A 2-hour space-themed hackathon where your code controls a simulated spacecraft.",
-    date: "March 15, 2025",
+    date: "AUGUST 28, 2025",
     time: "1:00 PM - 3:00 PM",
     location: "Launch Pad Auditorium",
     icon: "💻"
@@ -20,7 +20,7 @@ const events = [
   {
     title: "🚁 Drone Quest",
     description: "Fly your custom drone through a space station obstacle course.",
-    date: "March 16, 2025",
+    date: "AUGUST 29, 2025",
     time: "10:00 AM - 12:00 PM",
     location: "Galaxy Field (College Ground)",
     icon: "🚁"
@@ -28,7 +28,7 @@ const events = [
   {
     title: "🧠 AstroQuiz",
     description: "Showcase your tech knowledge in this galaxy-scale quiz competition.",
-    date: "March 16, 2025",
+    date: "AUGUST 29, 2025",
     time: "2:00 PM - 4:00 PM",
     location: "Nebula Hall (Seminar Room)",
     icon: "🧠"
@@ -36,7 +36,7 @@ const events = [
   {
     title: "🛰️ UI/UX Orbit",
     description: "Design a futuristic space app interface using Figma in limited time.",
-    date: "March 17, 2025",
+    date: "AUGUST 30, 2025",
     time: "11:00 AM - 1:00 PM",
     location: "Design Dock (Lab 2)",
     icon: "🛰️"

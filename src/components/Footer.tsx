@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="space-y-4">
               <h3 className="text-3xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                Tech Titans Club
+              Xavier's TechByte Society
               </h3>
               <p className="text-muted-foreground">
                 Exploring the cosmos of innovation, one line of code at a time.
@@ -20,7 +20,7 @@ const Footer = () => {
             
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <MapPin className="w-4 h-4" />
-              <span>[Your College Name], [City]</span>
+              <span> St. Xavier's College,Ranchi</span>
             </div>
           </div>
 

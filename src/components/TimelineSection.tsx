@@ -6,10 +6,34 @@ const timelineStops = [
     description: "Get ready to launch! Fill out the Google Form and secure your boarding pass to the TechFest galaxy."
   },
   {
+    milestone: "🚀 Launch Pad",
+    event: "Orientation & Team Formation",
+    date: "September 5, 2025",
+    description: "Meet your co-pilots, form your crew, and get mission-ready for the upcoming cosmic challenges."
+  },
+  {
+    milestone: "🤖 AI Station",
+    event: "AI/ML Workshop",
+    date: "September 8, 2025",
+    description: "Fuel up your mind with machine learning marvels and AI adventures led by expert astronauts."
+  },
+  {
+    milestone: "🛸 Drone Dock",
+    event: "Drone Fight Arena",
+    date: "September 9, 2025",
+    description: "Unleash the flying warriors! Join us for thrilling aerial battles at the Drone Fight Arena."
+  },
+  {
     milestone: "☁️ Cloud Station",
     event: "Workshops Begin",
     date: "September 10–12, 2025",
     description: "Join expert-led workshops and tech talks floating in the clouds of knowledge and innovation."
+  },
+  {
+    milestone: "🛰️ Orbit Checkpoint",
+    event: "Pre-Hack Checkpoint",
+    date: "September 13, 2025",
+    description: "Align your tools and ideas—this quick pit stop ensures your systems are go for the Hackathon launch."
   },
   {
     milestone: "🌙 Moon Base",
@@ -24,6 +48,7 @@ const timelineStops = [
     description: "The red planet marks the grand finale! Showcase your innovations and celebrate your achievements."
   }
 ];
+
 
 const TimelineSection = () => {
   return (

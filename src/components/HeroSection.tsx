@@ -47,7 +47,7 @@ const HeroSection = () => {
           
           <div className="cosmic-glass p-4 rounded-lg mx-auto max-w-2xl">
             <p className="text-xl md:text-2xl text-foreground/90 font-medium">
-              code • Collaborat • create 🚀
+              Code • Collaborat • Create 🚀
             </p>
             <p className="text-lg md:text-xl text-muted-foreground mt-2">
               TechFest 2025
@@ -61,7 +61,7 @@ const HeroSection = () => {
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
             Explore, innovate, and elevate your potential at the Annual TechFest 2025 
-            held at  St. Xavier's College
+            held at  St. Xavier's College ,Ranchi
           </p>
         </div>
 
