@@ -58,7 +58,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://instagram.com/techtitansclub"
+                href="https://instagram.com/Xavier's TechByte Society"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-muted-foreground hover:text-secondary transition-colors group"
@@ -86,11 +86,11 @@ const Footer = () => {
               <span className="ml-2">Made with 💫 for TechFest 2025</span>
             </p>
 
-            <div className="flex items-center gap-2 text-sm">
+            {/* <div className="flex items-center gap-2 text-sm">
               <span className="text-muted-foreground">Crafted by</span>
               <span className="text-primary font-semibold">Ashutosh Sahu</span>
               <span className="text-2xl">🚀</span>
-            </div>
+            </div> */}
 
           </div>
         </div>
