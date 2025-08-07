@@ -1,45 +1,56 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 
+
+import pe1 from '../assets/past-event/pe1.jpg';
+import pe2 from '../assets/past-event/pe2.jpg';
+import pe3 from '../assets/past-event/pe3.jpg';
+import pe4 from '../assets/past-event/pe4.jpg';
+import pe5 from '../assets/past-event/pe5.jpg';
+import pe6 from '../assets/past-event/pe6.jpg';
+import pe7 from '../assets/past-event/pe7.jpg';
+import pe8 from '../assets/past-event/pe8.jpg';
+import pe9 from '../assets/past-event/pe9.jpg';
+
 const galleryImages = [
   {
     id: 1,
-    src: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600",
+    src: pe1,
     alt: "TechFest 2024 - Opening Ceremony",
     year: "2024",
     event: "Opening Ceremony"
   },
   {
     id: 2,
-    src: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=600",
+    src: pe2,
     alt: "Hackathon Teams Coding",
     year: "2024", 
     event: "24hr Hackathon"
   },
   {
     id: 3,
-    src: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600",
+    src: pe9,
     alt: "AI Workshop Session",
     year: "2024",
     event: "AI Workshop"
   },
   {
     id: 4,
-    src: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=600",
+    src: pe7,
     alt: "Drone Competition",
     year: "2023",
     event: "Drone Quest"
   },
   {
     id: 5,
-    src: "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=800&h=600",
+    src: pe6,
     alt: "Award Ceremony",
     year: "2023",
     event: "Awards Night"
   },
   {
     id: 6,
-    src: "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=800&h=600",
+    src: pe7,
     alt: "Tech Expo Booths",
     year: "2023",
     event: "Tech Expo"

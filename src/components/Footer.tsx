@@ -11,13 +11,13 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="space-y-4">
               <h3 className="text-3xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Xavier's TechByte Society
+                Xavier's TechByte Society
               </h3>
               <p className="text-muted-foreground">
                 Exploring the cosmos of innovation, one line of code at a time.
               </p>
             </div>
-            
+
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <MapPin className="w-4 h-4" />
               <span> St. Xavier's College,Ranchi</span>
@@ -49,15 +49,15 @@ const Footer = () => {
           <div className="space-y-6">
             <h4 className="text-xl font-semibold text-foreground">Command Center</h4>
             <div className="space-y-4">
-              <a 
+              <a
                 href="mailto:techtitansclub@yourcollege.edu"
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group"
               >
                 <Mail className="w-5 h-5 group-hover:scale-110 transition-transform" />
                 <span>techtitansclub@yourcollege.edu</span>
               </a>
-              
-              <a 
+
+              <a
                 href="https://instagram.com/techtitansclub"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -66,8 +66,8 @@ const Footer = () => {
                 <Instagram className="w-5 h-5 group-hover:scale-110 transition-transform" />
                 <span>@techtitansclub</span>
               </a>
-              
-              <a 
+
+              <a
                 href="tel:+91XXXXXXXXXX"
                 className="flex items-center gap-3 text-muted-foreground hover:text-accent transition-colors group"
               >
@@ -82,15 +82,16 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-border/30">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-muted-foreground text-sm">
-              © {currentYear} Tech Titans Club. All rights reserved. 
+              © {currentYear} Xavier's TechByte Society. All rights reserved.
               <span className="ml-2">Made with 💫 for TechFest 2025</span>
             </p>
-            
+
             <div className="flex items-center gap-2 text-sm">
-              <span className="text-muted-foreground">Powered by</span>
-              <span className="text-primary font-semibold">Innovation & Caffeine</span>
-              <span className="text-2xl">☕</span>
+              <span className="text-muted-foreground">Crafted by</span>
+              <span className="text-primary font-semibold">Ashutosh Sahu</span>
+              <span className="text-2xl">🚀</span>
             </div>
+
           </div>
         </div>
       </div>

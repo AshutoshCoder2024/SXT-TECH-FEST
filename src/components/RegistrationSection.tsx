@@ -68,7 +68,7 @@ const RegistrationSection = () => {
 
             {/* Important Info */}
             <div className="space-y-2 text-sm text-muted-foreground">
-              <p>• Registration closes on March 10, 2025</p>
+              <p>• Registration closes on August 25, 2025</p>
               <p>• Bring your student ID and laptop</p>
               <p>• Teams of max 4 members allowed</p>
             </div>
@@ -103,13 +103,13 @@ const RegistrationSection = () => {
           <p className="text-muted-foreground mb-2">Need help with registration?</p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-sm">
             <a href="mailto:techtitansclub@yourcollege.edu" className="text-primary hover:text-primary/80 transition-colors">
-              📧 techtitansclub@yourcollege.edu
+              📧 ashutoshsahu9601@gamil.com
             </a>
-            <a href="https://instagram.com/techtitansclub" className="text-secondary hover:text-secondary/80 transition-colors">
-              📱 @techtitansclub
+            <a href="https://instagram.com/ashutosh_sahu_00" className="text-secondary hover:text-secondary/80 transition-colors">
+              📱 @XTS
             </a>
             <a href="tel:+91XXXXXXXXXX" className="text-accent hover:text-accent/80 transition-colors">
-              📞 +91 XXXX-XXXX-XX
+              📞 +91 9341013395
             </a>
           </div>
         </div>
