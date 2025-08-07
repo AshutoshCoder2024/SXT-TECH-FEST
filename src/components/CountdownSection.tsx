@@ -9,7 +9,7 @@ const CountdownSection = () => {
   });
 
   useEffect(() => {
-    const targetDate = new Date('2025-03-15T00:00:00').getTime();
+    const targetDate = new Date('2025-08-28T00:00:00').getTime();
 
     const updateCountdown = () => {
       const now = new Date().getTime();

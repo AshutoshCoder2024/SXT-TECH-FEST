@@ -33,7 +33,7 @@ const Navigation = () => {
   };
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+    <nav className={`fixed top-0 left-0 right-0   z-50 transition-all duration-300 ${
       isScrolled ? 'cosmic-glass border-b border-border/30' : 'bg-transparent'
     }`}>
       <div className="max-w-7xl mx-auto px-4">
@@ -43,7 +43,7 @@ const Navigation = () => {
             onClick={() => scrollToSection('#hero')}
             className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent hover:scale-105 transition-transform"
           >
-            TechTitans
+            Xavier's TechByte Society
           </button>
 
           {/* Desktop Navigation */}

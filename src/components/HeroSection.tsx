@@ -42,12 +42,12 @@ const HeroSection = () => {
       <div className="relative z-10 text-center space-y-8 px-4 max-w-4xl mx-auto">
         <div className="space-y-4">
           <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-            TECH TITANS CLUB
+          Xavier's TechByte Society
           </h1>
           
           <div className="cosmic-glass p-4 rounded-lg mx-auto max-w-2xl">
             <p className="text-xl md:text-2xl text-foreground/90 font-medium">
-              code • collaborate • create 🚀
+              code • Collaborat • create 🚀
             </p>
             <p className="text-lg md:text-xl text-muted-foreground mt-2">
               TechFest 2025
@@ -57,11 +57,11 @@ const HeroSection = () => {
 
         <div className="space-y-4">
           <h2 className="text-2xl md:text-3xl text-foreground/80">
-            Welcome aboard the Tech Titans' mothership!
+            Welcome aboard the Xavier's TechByte Society' mothership!
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
             Explore, innovate, and elevate your potential at the Annual TechFest 2025 
-            held at [Your College Name]
+            held at  St. Xavier's College
           </p>
         </div>
 
@@ -79,7 +79,7 @@ const HeroSection = () => {
         {/* Event Dates */}
         <div className="cosmic-glass p-4 rounded-lg inline-block">
           <p className="text-sm text-muted-foreground">MISSION DATES</p>
-          <p className="text-xl font-semibold text-foreground">March 15-17, 2025</p>
+          <p className="text-xl font-semibold text-foreground">August 28-29, 2025</p>
         </div>
       </div>
 
