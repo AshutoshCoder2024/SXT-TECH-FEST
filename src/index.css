@@ -2,41 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* Interstellar Tech Voyage Design System
+All colors MUST be HSL for cosmic theming.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Deep Space Base Colors */
+    --background: 230 45% 8%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    /* Glassmorphic Cards */
+    --card: 230 30% 15%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    /* Cosmic UI Elements */
+    --popover: 230 35% 12%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Cosmic Blue Primary */
+    --primary: 220 100% 70%;
+    --primary-foreground: 230 45% 8%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Neon Purple Secondary */
+    --secondary: 270 80% 65%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Plasma Pink Accent */
+    --accent: 320 85% 70%;
+    --accent-foreground: 230 45% 8%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Deep Space Muted */
+    --muted: 230 25% 20%;
+    --muted-foreground: 220 15% 70%;
+
+    /* Cosmic Borders */
+    --border: 220 40% 25%;
+    --input: 220 30% 20%;
+    --ring: 220 100% 70%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --radius: 0.75rem;
 
-    --radius: 0.5rem;
+    /* Cosmic Gradients */
+    --gradient-cosmic: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)));
+    --gradient-nebula: linear-gradient(45deg, hsl(var(--secondary)), hsl(var(--accent)));
+    --gradient-aurora: linear-gradient(90deg, hsl(var(--primary)), hsl(var(--accent)), hsl(var(--secondary)));
+    --gradient-deep-space: linear-gradient(180deg, hsl(230 45% 8%), hsl(230 55% 5%));
+
+    /* Cosmic Glows */
+    --glow-primary: 0 0 20px hsl(var(--primary) / 0.5);
+    --glow-secondary: 0 0 20px hsl(var(--secondary) / 0.5);
+    --glow-accent: 0 0 20px hsl(var(--accent) / 0.5);
+    --glow-soft: 0 0 40px hsl(var(--primary) / 0.2);
+
+    /* Animations */
+    --transition-cosmic: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --float-duration: 6s;
 
     --sidebar-background: 0 0% 98%;
 
@@ -54,43 +78,114 @@ All colors MUST be HSL.
 
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
+}
 
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+/* Cosmic Animations & Effects */
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-20px) rotate(1deg); }
+}
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+@keyframes twinkle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: var(--glow-soft); }
+  50% { box-shadow: var(--glow-primary); }
+}
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+@keyframes aurora {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+@keyframes orbit {
+  from { transform: rotate(0deg) translateX(100px) rotate(0deg); }
+  to { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+@keyframes shooting-star {
+  0% { transform: translateX(-100px) translateY(-100px); opacity: 0; }
+  50% { opacity: 1; }
+  100% { transform: translateX(300px) translateY(300px); opacity: 0; }
+}
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+@keyframes starfield {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-1000px); }
+}
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+/* Cosmic Component Classes */
+@layer components {
+  .cosmic-glass {
+    @apply bg-card/20 backdrop-blur-md border border-border/30;
+    box-shadow: var(--glow-soft);
+  }
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+  .cosmic-glow {
+    transition: var(--transition-cosmic);
+  }
+
+  .cosmic-glow:hover {
+    box-shadow: var(--glow-primary);
+    transform: translateY(-4px);
+  }
+
+  .cosmic-float {
+    animation: float var(--float-duration) ease-in-out infinite;
+  }
+
+  .cosmic-twinkle {
+    animation: twinkle 2s ease-in-out infinite;
+  }
+
+  .aurora-bg {
+    background: var(--gradient-aurora);
+    background-size: 400% 400%;
+    animation: aurora 8s ease infinite;
+  }
+
+  .starfield-bg {
+    background-image: 
+      radial-gradient(2px 2px at 20px 30px, white, transparent),
+      radial-gradient(2px 2px at 40px 70px, white, transparent),
+      radial-gradient(1px 1px at 90px 40px, white, transparent),
+      radial-gradient(1px 1px at 130px 80px, white, transparent),
+      radial-gradient(2px 2px at 160px 30px, white, transparent);
+    background-repeat: repeat;
+    background-size: 200px 100px;
+    animation: starfield 100s linear infinite;
+  }
+
+  .nebula-bg {
+    background: var(--gradient-nebula);
+    background-size: 400% 400%;
+    animation: aurora 12s ease infinite;
+  }
+
+  .cosmic-button {
+    @apply cosmic-glass cosmic-glow;
+    background: var(--gradient-cosmic);
+    border: 1px solid hsl(var(--primary) / 0.5);
+  }
+
+  .cosmic-button:hover {
+    box-shadow: var(--glow-primary), 0 0 40px hsl(var(--primary) / 0.3);
+    transform: translateY(-2px) scale(1.02);
+  }
+
+  .event-card {
+    @apply cosmic-glass p-6 rounded-lg cosmic-glow;
+    background: linear-gradient(135deg, hsl(var(--card) / 0.8), hsl(var(--card) / 0.4));
+    border: 1px solid hsl(var(--border) / 0.5);
+  }
+
+  .event-card:hover {
+    transform: translateY(-8px) rotateX(5deg);
+    box-shadow: var(--glow-secondary), 0 20px 40px hsl(var(--secondary) / 0.2);
   }
 }
 
