@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import techClubLogo from "@/assets/tech-club-logo.png";
 import collegeLogo from "@/assets/college-logo.png";
-import heroNebula from "@/assets/hero-nebula.jpg";
+import heroCosmicNebula from "@/assets/hero-cosmic-nebula.jpg";
 
 const HeroSection = () => {
   const scrollToRegistration = () => {
@@ -14,7 +14,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 opacity-30"
         style={{
-          backgroundImage: `url(${heroNebula})`,
+          backgroundImage: `url(${heroCosmicNebula})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed'
