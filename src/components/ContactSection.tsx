@@ -12,20 +12,45 @@ const ContactSection = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
+  // const handleSubmit = async (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   setIsSubmitting(true);
+
+  //   // Simulate form submission
+  //   await new Promise(resolve => setTimeout(resolve, 2000));
+
+  //   // Reset form
+  //   setFormData({ name: '', email: '', message: '' });
+  //   setIsSubmitting(false);
+
+  //   // Show success message (you can add toast here)
+  //   alert('Message sent successfully! 🚀');
+  // };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 2000));
-    
-    // Reset form
-    setFormData({ name: '', email: '', message: '' });
+  
+    const data = new FormData();
+    data.append("name", formData.name);
+    data.append("email", formData.email);
+    data.append("message", formData.message);
+  
+    try {
+      await fetch("https://formsubmit.co/el/kicube", {
+        method: "POST",
+        body: data,
+      });
+  
+      alert("Message sent successfully! 🚀");
+      setFormData({ name: "", email: "", message: "" });
+    } catch (error) {
+      alert("Oops! Something went wrong.");
+    }
+  
     setIsSubmitting(false);
-    
-    // Show success message (you can add toast here)
-    alert('Message sent successfully! 🚀');
   };
+  
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData(prev => ({
@@ -51,6 +76,9 @@ const ContactSection = () => {
           {/* Contact Form */}
           <div className="cosmic-glass p-8 rounded-2xl cosmic-glow">
             <form onSubmit={handleSubmit} className="space-y-6">
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="box" />
+              <input type="hidden" name="_subject" value="🚀 New Contact Form Submission!" />
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-bold text-foreground mb-2">Send Transmission</h3>
                 <p className="text-muted-foreground">Reach out to our mission specialists</p>
@@ -108,8 +136,8 @@ const ContactSection = () => {
               </div>
 
               {/* Submit Button */}
-              <Button 
-                type="submit" 
+              <Button
+                type="submit"
                 disabled={isSubmitting}
                 className="w-full cosmic-button text-lg py-6 group"
               >
@@ -126,6 +154,7 @@ const ContactSection = () => {
                 )}
               </Button>
             </form>
+
           </div>
 
           {/* Contact Information */}
@@ -133,7 +162,7 @@ const ContactSection = () => {
             {/* Mission Control Info */}
             <div className="cosmic-glass p-8 rounded-2xl cosmic-glow">
               <h3 className="text-2xl font-bold text-foreground mb-6">Mission Control HQ</h3>
-              
+
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="cosmic-glass p-3 rounded-lg">

@@ -22,15 +22,15 @@ const HeroSection = () => {
       />
       
       {/* Floating Logos */}
-      <div className="absolute top-8 left-8 cosmic-float">
+      <div className="absolute top-14 left-7 cosmic-float">
         <img 
           src={techClubLogo} 
-          alt="Tech Titans Club Logo" 
+          alt="Xavier's TechByte Society Logo" 
           className="w-20 h-20 md:w-24 md:h-24 cosmic-glow"
         />
       </div>
       
-      <div className="absolute top-8 right-8 cosmic-float" style={{ animationDelay: '2s' }}>
+      <div className="absolute top-14 right-7 cosmic-float" style={{ animationDelay: '2s' }}>
         <img 
           src={collegeLogo} 
           alt="College Logo" 
