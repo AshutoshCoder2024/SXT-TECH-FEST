@@ -34,7 +34,7 @@ const ContactSection = () => {
     };
 
     try {
-      const res = await fetch("https://formsubmit.co/el/confirm/2ff0e50da060faf51a475295b6c3d805", {
+      const res = await fetch("https://formsubmit.co/ajax/ashutoshsahu9601@gmail.com", {
         method: "POST",
         headers: {
           // This header is crucial for sending JSON data
