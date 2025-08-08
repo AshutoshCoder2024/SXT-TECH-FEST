@@ -23,30 +23,39 @@ const ContactSection = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    const data = new FormData();
-    data.append("name", formData.name);
-    data.append("email", formData.email);
-    data.append("message", formData.message);
-    data.append("_captcha", "false");
-    data.append("_template", "box");
-    data.append("_subject", "🚀 New Contact Form Submission!");
+    // Prepare the data as a JSON object, which is required for the fetch API to work correctly with formsubmit.co
+    const data = {
+      name: formData.name,
+      email: formData.email,
+      message: formData.message,
+      _captcha: "false",
+      _template: "box",
+      _subject: "🚀 New Contact Form Submission!"
+    };
 
     try {
-      const res = await fetch("https://formsubmit.co/el/kicube", {
+      const res = await fetch("https://formsubmit.co/el/confirm/2ff0e50da060faf51a475295b6c3d805", {
         method: "POST",
-        body: data,
         headers: {
+          // This header is crucial for sending JSON data
+          "Content-Type": "application/json",
+          // This header tells formsubmit.co to respond with JSON
           Accept: "application/json"
-        }
+        },
+        body: JSON.stringify(data), // Send the data as a JSON string
       });
 
       if (res.ok) {
         alert("🚀 Message sent successfully!");
         setFormData({ name: "", email: "", message: "" });
       } else {
-        alert("❌ Something went wrong. Try again!");
+        // You can get more details about the error from the response
+        const errorData = await res.json();
+        console.error("Submission error:", errorData);
+        alert(`❌ Something went wrong. Try again! Details: ${errorData.message || res.statusText}`);
       }
     } catch (error) {
+      console.error("Network or submission error:", error);
       alert("❌ Network error. Please try again.");
     }
 
@@ -203,7 +212,7 @@ const ContactSection = () => {
                   { label: "FAQ", href: "#faq" }
                 ].map((link, index) => (
                   <button
-                    key={index}
+                    key={index} // Added a unique key for each item, which is a best practice in React
                     onClick={() => document.querySelector(link.href)?.scrollIntoView({ behavior: 'smooth' })}
                     className="text-left p-2 text-muted-foreground hover:text-primary transition-colors text-sm"
                   >
