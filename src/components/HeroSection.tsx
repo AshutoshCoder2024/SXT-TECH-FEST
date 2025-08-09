@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import techClubLogo from "@/assets/tech-club-logo.png";
 import collegeLogo from "@/assets/college-logo.png";
-import heroCosmicNebula from "@/assets/hero-cosmic-nebula.jpg";
+import heroCosmicNebula from "@/assets/image.png";
 
 const HeroSection = () => {
   const scrollToRegistration = () => {
@@ -11,43 +11,42 @@ const HeroSection = () => {
   return (
     <section id="hero" className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
       {/* Hero Background */}
-      <div 
+      <div
         className="absolute inset-0 opacity-30"
         style={{
-          backgroundImage: `url(${heroCosmicNebula})`,
+          // backgroundImage: `url(${heroCosmicNebula})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed'
         }}
       />
-      
+
       {/* Floating Logos */}
-      <div className="absolute top-14 left-7 cosmic-float">
-        <img 
-          src={techClubLogo} 
-          alt="Xavier's TechByte Society Logo" 
-          className="w-20 h-20 md:w-24 md:h-24 cosmic-glow"
+      <div className="absolute top-20 left-2 md:top-24 md:left-4 cosmic-float">
+        <img
+          src={techClubLogo}
+          alt="Xavier's TechByte Society Logo"
+          className="w-12 h-12 md:w-24 md:h-24 cosmic-glow"
         />
       </div>
-      
-      <div className="absolute top-14 right-7 cosmic-float" style={{ animationDelay: '2s' }}>
-        <img 
-          src={collegeLogo} 
-          alt="College Logo" 
-          className="w-20 h-20 md:w-24 md:h-24 cosmic-glow"
+
+      <div className="absolute top-20 right-2 md:top-24 md:right-4 cosmic-float" style={{ animationDelay: '2s' }}>
+        <img
+          src={collegeLogo}
+          alt="College Logo"
+          className="w-12 h-12 md:w-24 md:h-24 cosmic-glow"
         />
       </div>
 
       {/* Main Content */}
-      <div className="relative z-10 text-center space-y-8 px-4 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center top-8 space-y-6 md:space-y-8 px-4 max-w-4xl mx-auto">
         <div className="space-y-4">
-          <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-          Xavier's TechByte Society
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+            Xavier's TechByte Society
           </h1>
-          
           <div className="cosmic-glass p-4 rounded-lg mx-auto max-w-2xl">
             <p className="text-xl md:text-2xl text-foreground/90 font-medium">
-              Code • Collaborat • Create 🚀
+              Code • Collaborate • Create 🚀
             </p>
             <p className="text-lg md:text-xl text-muted-foreground mt-2">
               TechFest 2025
@@ -57,18 +56,18 @@ const HeroSection = () => {
 
         <div className="space-y-4">
           <h2 className="text-2xl md:text-3xl text-foreground/80">
-            Welcome aboard the Xavier's TechByte Society' mothership!
+            Welcome aboard the mothership!
           </h2>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Explore, innovate, and elevate your potential at the Annual TechFest 2025 
-            held at  St. Xavier's College ,Ranchi
+          <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
+            Explore, innovate, and elevate your potential at the Annual TechFest 2025
+            held at St. Xavier's College, Ranchi.
           </p>
         </div>
 
         {/* CTA Button */}
         <div className="pt-8">
-          <Button 
-            size="lg" 
+          <Button
+            size="lg"
             className="cosmic-button text-lg px-8 py-6 hover:scale-105 transition-all duration-300"
             onClick={scrollToRegistration}
           >
