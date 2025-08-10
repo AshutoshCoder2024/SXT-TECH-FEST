@@ -78,7 +78,7 @@ const HeroSection = () => {
         {/* Event Dates */}
         <div className="cosmic-glass p-4 rounded-lg inline-block">
           <p className="text-sm text-muted-foreground">MISSION DATES</p>
-          <p className="text-xl font-semibold text-foreground">August 28-29, 2025</p>
+          <p className="text-xl font-semibold text-foreground">August 28-30, 2025</p>
         </div>
       </div>
 

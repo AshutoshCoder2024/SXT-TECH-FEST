@@ -33,7 +33,7 @@ const RegistrationSection = () => {
                 Secure Your Launch Pad
               </h3>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Join hundreds of tech enthusiasts on this incredible journey. Limited seats available 
+                Join hundreds of tech enthusiasts on this incredible journey. Limited seats available
                 for this exclusive interstellar experience.
               </p>
             </div>
@@ -56,15 +56,16 @@ const RegistrationSection = () => {
 
             {/* Registration Button */}
             <div className="pt-4">
-              <Button 
-                size="lg" 
-                className="cosmic-button text-xl px-12 py-6 hover:scale-105 transition-all duration-300 group"
+              <Button
+                size="lg"
+                className="cosmic-button text-base sm:text-lg md:text-xl px-6 sm:px-10 md:px-12 py-4 sm:py-5 md:py-6 hover:scale-105 transition-all duration-300 group w-full sm:w-auto"
                 onClick={handleRegistration}
               >
                 🚀 Launch Registration
-                <ExternalLink className="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                <ExternalLink className="ml-2 sm:ml-3 w-4 sm:w-5 h-4 sm:h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </div>
+
 
             {/* Important Info */}
             <div className="space-y-2 text-sm text-muted-foreground">
