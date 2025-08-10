@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <footer className="relative py-16 px-4 border-t border-border/30">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
           {/* Brand Section */}
-          <div className="space-y-6">
-            <div className="space-y-4">
+          <div className="space-y-6 flex flex-col items-center">
+            <div className="space-y-4 flex flex-col items-center">
               <h3 className="text-3xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                 Xavier's TechByte Society
               </h3>
@@ -18,16 +18,16 @@ const Footer = () => {
               </p>
             </div>
 
-            <div className="flex items-center gap-2 text-sm text-muted-foreground">
+            <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
               <MapPin className="w-4 h-4" />
               <span> St. Xavier's College,Ranchi</span>
             </div>
           </div>
 
           {/* Quick Links */}
-          <div className="space-y-6">
+          <div className="space-y-6 flex flex-col items-center">
             <h4 className="text-xl font-semibold text-foreground">Mission Control</h4>
-            <div className="space-y-3">
+            <div className="space-y-3 flex flex-col items-center">
               {[
                 { label: "Mission Briefing", href: "#mission-briefing" },
                 { label: "Space Missions", href: "#events" },
@@ -46,33 +46,33 @@ const Footer = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="space-y-6">
+          <div className="space-y-6 flex flex-col items-center">
             <h4 className="text-xl font-semibold text-foreground">Command Center</h4>
-            <div className="space-y-4">
+            <div className="space-y-4 flex flex-col items-center">
               <a
-                href="mailto:techtitansclub@yourcollege.edu"
-                className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group"
+                href="mailto:xts@sxcran.org"
+                className="flex items-center justify-center gap-3 text-muted-foreground hover:text-primary transition-colors group"
               >
                 <Mail className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                <span>techtitansclub@yourcollege.edu</span>
+                <span>xts@sxcran.org</span>
               </a>
 
               <a
-                href="https://instagram.com/Xavier's TechByte Society"
+                href="https://www.instagram.com/xaviers_techbyte.society/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 text-muted-foreground hover:text-secondary transition-colors group"
+                className="flex items-center justify-center gap-3 text-muted-foreground hover:text-secondary transition-colors group"
               >
                 <Instagram className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                <span>@techtitansclub</span>
+                <span>@Xavier's TechByte Society</span>
               </a>
 
               <a
-                href="tel:+91XXXXXXXXXX"
-                className="flex items-center gap-3 text-muted-foreground hover:text-accent transition-colors group"
+                href="tel:+9341013395"
+                className="flex items-center justify-center gap-3 text-muted-foreground hover:text-accent transition-colors group"
               >
                 <Phone className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                <span>+91 XXXX-XXXX-XX</span>
+                <span>+91 9341013395</span>
               </a>
             </div>
           </div>
@@ -80,18 +80,21 @@ const Footer = () => {
 
         {/* Bottom Section */}
         <div className="mt-12 pt-8 border-t border-border/30">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="text-muted-foreground text-sm">
+          <div className="flex flex-col items-center justify-center gap-4 text-center">
+            <p className="text-muted-foreground text-sm text-center">
               © {currentYear} Xavier's TechByte Society. All rights reserved.
               <span className="ml-2">Made with 💫 for TechFest 2025</span>
             </p>
 
-            {/* <div className="flex items-center gap-2 text-sm">
-              <span className="text-muted-foreground">Crafted by</span>
-              <span className="text-primary font-semibold">Ashutosh Sahu</span>
-              <span className="text-2xl">🚀</span>
-            </div> */}
-
+            {/* <a
+                href="https://www.instagram.com/ashutosh_sahu_00"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center mt-5 justify-center gap-3 text-muted-foreground hover:text-secondary transition-colors group text-centermt-12 pt-8 border-t border-border/30 "
+              >
+                <span>Designed & Built by Ashutosh</span>
+                <Instagram className="w-5 h-5 group-hover:scale-110 transition-transform" />
+              </a> */}
           </div>
         </div>
       </div>
@@ -99,7 +102,7 @@ const Footer = () => {
       {/* Background Effects */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Twinkling Stars */}
-        {[...Array(15)].map((_, i) => (
+        {[...Array(20)].map((_, i) => (
           <div
             key={i}
             className="absolute w-1 h-1 bg-primary rounded-full cosmic-twinkle"

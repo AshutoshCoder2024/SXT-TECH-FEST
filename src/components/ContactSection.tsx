@@ -167,8 +167,8 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <div className="font-semibold text-foreground">Email Transmission</div>
-                    <a href="mailto:techtitansclub@yourcollege.edu" className="text-primary hover:text-primary/80">
-                      techtitansclub@yourcollege.edu
+                    <a href="mailto:xts@sxcran.org" className="text-primary hover:text-primary/80">
+                      xts@sxcran.org
                     </a>
                   </div>
                 </div>
@@ -179,8 +179,8 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <div className="font-semibold text-foreground">Direct Communication</div>
-                    <a href="tel:+91XXXXXXXXXX" className="text-secondary hover:text-secondary/80">
-                      +91 XXXX-XXXX-XX
+                    <a href="tel:+9341013395" className="text-secondary hover:text-secondary/80">
+                      +91 941013395
                     </a>
                   </div>
                 </div>
@@ -192,10 +192,11 @@ const ContactSection = () => {
                   <div>
                     <div className="font-semibold text-foreground">Launch Location</div>
                     <div className="text-muted-foreground">
-                      [Your College Name]<br />
-                      [College Address]<br />
-                      [City, State - PIN]
+                      (St. Xavier's College, Ranchi)<br />
+                      (Dr. Camil Bulcke Path, Pathalkudwa, Nayatoli)<br />
+                      (Ranchi, Jharkhand 834001, India)
                     </div>
+
                   </div>
                 </div>
               </div>
