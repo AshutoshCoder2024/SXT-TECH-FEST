@@ -1,53 +1,85 @@
 const timelineStops = [
   {
-    milestone: "🌍 Earth",
-    event: "Registration Opens",
-    date: "September 1, 2025",
-    description: "Get ready to launch! Fill out the Google Form and secure your boarding pass to the TechFest galaxy."
+    milestone: "🎉 Grand Opening",
+    event: "Inauguration Ceremony",
+    date: "Day 1 – August 29, 2025",
+    time: "10:00 AM – 11:00 AM",
+    description: "Welcome address, lamp lighting, speeches by Principal and Chief Guest (MeitY/HP), felicitation, and a cultural performance."
   },
   {
-    milestone: "🚀 Launch Pad",
-    event: "Orientation & Team Formation",
-    date: "September 5, 2025",
-    description: "Meet your co-pilots, form your crew, and get mission-ready for the upcoming cosmic challenges."
+    milestone: "🤖 AI Insights",
+    event: "Workshop – AI by MeitY",
+    date: "Day 1 – August 29, 2025",
+    time: "11:00 AM – 12:30 PM",
+    description: "1.5-hour interactive workshop on Artificial Intelligence, led by experts from MeitY."
   },
   {
-    milestone: "🤖 AI Station",
-    event: "AI/ML Workshop",
-    date: "September 8, 2025",
-    description: "Fuel up your mind with machine learning marvels and AI adventures led by expert astronauts."
+    milestone: "⚡ HustleHub",
+    event: "Hackathon",
+    date: "Day 1 – August 29, 2025",
+    time: "1:00 PM – 4:00 PM",
+    description: "3-hour coding sprint to solve real-world challenges. Final pitches presented at the end of the day."
   },
   {
-    milestone: "🛸 Drone Dock",
-    event: "Drone Fight Arena",
-    date: "September 9, 2025",
-    description: "Unleash the flying warriors! Join us for thrilling aerial battles at the Drone Fight Arena."
+    milestone: "🎮 Gaming Arena",
+    event: "Esports Tournament by HP",
+    date: "Day 1 – August 29, 2025",
+    time: "11:00 AM – 4:00 PM",
+    description: "Exciting gaming battles running parallel to other events."
   },
   {
-    milestone: "☁️ Cloud Station",
-    event: "Workshops Begin",
-    date: "September 10–12, 2025",
-    description: "Join expert-led workshops and tech talks floating in the clouds of knowledge and innovation."
+    milestone: "📸 Creative Spotlight",
+    event: "PR & Creative Coverage",
+    date: "Day 1 – August 29, 2025",
+    time: "All Day",
+    description: "On-ground coverage and highlight video creation capturing the best moments of Day 1."
   },
   {
-    milestone: "🛰️ Orbit Checkpoint",
-    event: "Pre-Hack Checkpoint",
-    date: "September 13, 2025",
-    description: "Align your tools and ideas—this quick pit stop ensures your systems are go for the Hackathon launch."
+    milestone: "🚀 Future Showcase",
+    event: "Tech Exhibition Launch",
+    date: "Day 2 – August 30, 2025",
+    time: "10:00 AM – 1:00 PM",
+    description: "Opening of stalls and demos showcasing cutting-edge innovations."
   },
   {
-    milestone: "🌙 Moon Base",
-    event: "Hackathon Commences",
-    date: "September 15–16, 2025",
-    description: "Collaborate with fellow astronauts to solve real-world problems in a high-energy, moonlit hackathon!"
+    milestone: "🧠 Brain Buzz",
+    event: "Tech   Quiz",
+    date: "Day 2 – August 30, 2025",
+    time: "12:00 PM – 1:00 PM",
+    description: "Fun and engaging tech challenges and quizzes running alongside the exhibition."
   },
   {
-    milestone: "🔴 Mars Colony",
-    event: "Finale + Awards",
-    date: "September 17, 2025",
-    description: "The red planet marks the grand finale! Showcase your innovations and celebrate your achievements."
+    milestone: "🚀 Startup Sprint",
+    event: "StartupXpress",
+    date: "Day 2 – August 30, 2025",
+    time: "11:00 AM – 2:00 PM",
+    description: "3-hour challenge to create a brand and pitch your startup idea in Fr. Proost Hall."
+  },
+  {
+    milestone: "🤖 RoboRush F1",
+    event: "Robot Race",
+    date: "Day 2 – August 30, 2025",
+    time: "1:30 PM – 2:00 PM",
+    description: "Fast-paced F1-themed robot race at the Basketball Court."
+  },
+  {
+    milestone: "🎥 Final Cut",
+    event: "PR & Creative Final Video Presentation",
+    date: "Day 2 – August 30, 2025",
+    time: "2:00 PM – 2:30 PM",
+    description: "Presentation of the final event highlight video in Fr. Proost Hall."
+  },
+  {
+    milestone: "🏆 Closing Ceremony",
+    event: "Prize Distribution & Cultural Performance",
+    date: "Day 2 – August 30, 2025",
+    time: "2:30 PM – 4:00 PM",
+    description: "Sponsor address, cultural fusion performance, prize distribution for all competitions, and vote of thanks."
   }
 ];
+
+
+
 
 
 const TimelineSection = () => {
@@ -60,8 +92,7 @@ const TimelineSection = () => {
             🛰️ Mission Journey Timeline
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Track your interstellar journey through TechFest 2025 as we launch from Earth and 
-            travel across the cosmos of innovation!
+            Embark on the ultimate TechFest 2025 adventure — from takeoff to touchdown, experience every epic moment of innovation
           </p>
         </div>
 
@@ -100,6 +131,11 @@ const TimelineSection = () => {
                         <p className="text-accent font-medium">
                           {stop.date}
                         </p>
+                        {/* Time*/}
+                        <p className="text-accent font-medium">
+                          {stop.time}
+                        </p>
+
 
                         {/* Description */}
                         <p className="text-muted-foreground leading-relaxed">

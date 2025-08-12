@@ -5,9 +5,10 @@ const events = [
   {
     title: "⚡ HustleHub (Hackathon)",
     description: "3 Hours • One Problem • Infinite Hustle — Code, create, and innovate under pressure to solve real-world campus problems.",
-    date: "TBD",
-    time: "3 Hours",
-    location: "College Campus - CSE Block",
+    date: "29-August",
+    time: "(1:00 PM – 4:00 PM)"
+    ,
+    location: "College Campus - Hall- C",
     icon: "⚡",
     details: {
       overview:
@@ -15,6 +16,8 @@ const events = [
       problemStatements: [
         {
           title: "Smart Attendance System",
+          Description: "Build a web/app-based attendance tracker for students and teachers, with automated absentee notifications",
+
           core: [
             "Mark attendance for students",
             "View attendance records by date"
@@ -27,6 +30,8 @@ const events = [
         },
         {
           title: "College Event Hub",
+          Description: "A platform that lists all upcoming college events, allows registrations, and sends reminders.",
+
           core: [
             "Event listing with date, time, and description",
             "Online event registration"
@@ -40,6 +45,7 @@ const events = [
         },
         {
           title: "Lost & Found Hub",
+          Description: "A digital hub where students can report lost items and claim found ones.",
           core: [
             "Post lost/found items with basic details",
             "Search or browse items"
@@ -52,6 +58,7 @@ const events = [
         },
         {
           title: "Anonymous Feedback Box",
+          Description: "A platform for students to share feedback or concerns with theadministration anonymously",
           core: [
             "Submit feedback without revealing identity",
             "Admin dashboard to view feedback"
@@ -65,6 +72,7 @@ const events = [
         },
         {
           title: "Student Skill Exchange",
+          Description: "A barter platform where students can exchange skills (e.g., “Teach me Photoshop, I’ll help you with coding”)",
           core: [
             "List skills offered and skills needed",
             "Search and browse available skill listings"
@@ -83,25 +91,29 @@ const events = [
         "Feasibility & Relevance – 20 points",
         "Bonus Features – 10 points"
       ],
-      prizes: [
-        "🥇 1st Place: Certificate + Premium Tech Goodies",
-        "🥈 2nd Place: Certificate + Goodies",
-        "🥉 3rd Place: Certificate + Goodies"
-      ],
+      // prizes: [
+      //   "🥇 1st Place: Certificate + Premium Tech Goodies",
+      //   "🥈 2nd Place: Certificate + Goodies",
+      //   "🥉 3rd Place: Certificate + Goodies"
+      // ],
       rules: [
-        "Teams of 2–3 members",
-        "Bring your own laptop with required software",
-        "Coding experience recommended",
+        "Teams of 2–4 members",
         "You may choose any problem statement to implement",
-        "A surprise bonus feature will be revealed mid-event"
-      ],
-      requirements: [
-        "Laptop with reliable internet access",
-        "Experience in HTML, CSS, JavaScript or app frameworks",
-        "Basic knowledge of APIs and database handling",
-        "Ability to work under time pressure",
-        "At least one member skilled in UI/UX design"
-      ],
+        "A surprise bonus feature will be revealed mid-event",
+        "💡 NOTE : Bring a fully charged laptop with a reliable internet connection to ensure uninterrupted participation."
+      ]
+      ,
+      // requirements: [
+      //   "Laptop (fully charged) with a stable internet connection",
+      //   "Ability to perform well under tight deadlines",
+      //   "Strong problem-solving and teamwork skills",
+      //   "Willingness to adapt and think creatively",
+      //   "Commitment to complete all tasks within the given timeframe"
+      // ],
+
+      // note: "Ensure you bring a fully charged laptop with a stable internet connection for smooth participation.",
+
+
       registration: {
         fee: "Free",
         deadline: "TBD"
@@ -111,19 +123,18 @@ const events = [
   {
     title: "🚀 Startup Xpress (Brainstorm. Build. Pitch)",
     description: "Turn your idea into a brand in 3 hours — create, design, and pitch to win.",
-    date: "TBD",
-    time: "3 Hours",
-    location: "Innovation Hub",
+    date: "30-August",
+    time: "11:00am  to 2:00 pm",
+    location: "Fr. Proost Hall",
     icon: "🚀",
     details: {
-      overview:
-        "An entrepreneurial challenge where teams develop a product concept, design a brand, create a website, and produce a short advertisement — all within 3 hours. Then, pitch your startup to our panel of judges.",
+      overview: "The organizer will reveal 3–4 exciting product categories (e.g., Sustainable Lifestyle, Campus Tech, Rural Innovations, etc.). Each team will choose one category to work on and craft an innovative solution. This is your chance to think big, solve real problems, and showcase your creativity. Surprise us with ideas that could change the game!",
       coreTasks: [
         "Create a brand name & tagline",
         "Write a clear mission statement",
         "Design a professional digital logo",
         "Build a landing page or website",
-        "Produce a 30–60 second ad video"
+        "Produce a 30-60 sec Advertisement video/ Mockup Ad (Shot on phone or animated"
       ],
       bonusChallenges: [
         "Include a social impact element",
@@ -141,23 +152,20 @@ const events = [
           "Answer questions from judges"
         ]
       },
-      prizes: [
-        "🥇 1st Place: Certificate + Entrepreneur Starter Kit",
-        "🥈 2nd Place: Certificate + Goodies",
-        "🥉 3rd Place: Certificate + Goodies"
-      ],
       rules: [
-        "Teams of 2–4 members",
-        "Laptops & internet access required",
-        "All tasks must be finished within time",
-        "Bonus challenges are optional but give extra points"
+        "Teams must have 2–4 members.",
+        "You may choose any product category revealed at the event.",
+        "A surprise bonus feature will be announced mid-event and must be incorporated.",
+        "Respect the time limit — submissions after the deadline will not be accepted.",
+        "Maintain team spirit and respect towards other participants and organizers.",
+        "💡 NOTE : Bring a fully charged laptop with a reliable internet connection to ensure uninterrupted participation."
+
+
       ],
-      requirements: [
-        "Laptop with design & web tools installed (Canva, Figma, Wix, etc.)",
-        "Basic web development or design skills",
-        "Creative thinking & storytelling ability",
-        "Presentation and public speaking skills"
-      ],
+      // requirements: [
+      //   "Laptop (fully charged) with stable internet access.",
+      //   "Positive attitude and willingness to adapt to changes."
+      // ],
       registration: {
         fee: "Free",
         deadline: "TBD"
@@ -173,29 +181,29 @@ const events = [
     icon: "🤖",
     details: {
       overview:
-        "A thrilling robotics race where teams compete with their own line-following or remote-controlled robots on an F1-style track with sharp curves, loops, and speed zones.",
+        "Teams build or bring their custom-built racing robots (line followers or remotecontrolled bots) and race them on an F1-inspired track with curves, loops, and checkpoints.",
       rounds: [
         "Round 1: Time Trials – One lap to qualify",
         "Round 2: Knockouts – Head-to-head races",
         "Round 3: Final Race – Top 4 race together"
       ],
-      prizes: [
-        "🥇 1st Place: Certificate + Robotics Kit",
-        "🥈 2nd Place: Certificate + Goodies",
-        "🥉 3rd Place: Certificate + Goodies"
-      ],
+      // prizes: [
+      //   "🥇 1st Place: Certificate + Robotics Kit",
+      //   "🥈 2nd Place: Certificate + Goodies",
+      //   "🥉 3rd Place: Certificate + Goodies"
+      // ],
       rules: [
-        "Teams of 2–3 members",
-        "Robots must meet safety requirements",
-        "No external assistance during race",
-        "Three rounds in total"
+        "Teams can have 1–3 members.",
+        "Robots must be self-built or custom-modified (no ready-made toy cars).",
+        "Touching the robot during the race is not allowed unless instructed by the referee.",
+        "If a robot goes off-track, it must restart from the last checkpoint.",
+        "Judges’ decisions will be final and binding."
       ],
-      requirements: [
-        "Functional robot (line-follower or RC)",
-        "Tools for quick repairs",
-        "Basic electronics & mechanical skills",
-        "Knowledge of motor control & sensors"
-      ],
+
+      // requirements: [
+      //   "Functional robot (line-follower or RC)",
+      //   "Tools for quick repairs",
+      // ],
       registration: {
         fee: "Free",
         deadline: "TBD"
@@ -205,7 +213,7 @@ const events = [
   {
     title: "🎥 FestFrame (PR & Creative Challenge)",
     description: "Capture the spirit of TechFest and create an unforgettable highlight video.",
-    date: "TechFest 3 Days",
+    date: "TechFest 2 Days(29-30)",
     time: "All Day",
     location: "Campus",
     icon: "🎥",
@@ -214,7 +222,7 @@ const events = [
         "Document the magic of TechFest! Film, edit, and present a short creative video capturing the best moments, stories, and emotions of the event.",
       phases: [
         {
-          phase: "Filming (Day 1 & 2)",
+          phase: "Filming (Day 1)",
           tasks: [
             "Capture event highlights & crowd energy",
             "Interview participants & guests",
@@ -223,7 +231,7 @@ const events = [
           ]
         },
         {
-          phase: "Editing (After Day 2)",
+          phase: "Editing (After Day 1)",
           tasks: [
             "Add event title & TechFest logo animation",
             "Use background music to set mood",
@@ -232,7 +240,7 @@ const events = [
           ]
         },
         {
-          phase: "Presentation (Day 3)",
+          phase: "Presentation (Day 2)",
           tasks: [
             "Submit final video",
             "Judges score creativity, storytelling, and execution"
@@ -245,29 +253,79 @@ const events = [
         "Technical Execution – 20 points",
         "Use of Effects & Transitions – 20 points"
       ],
-      prizes: [
-        "🥇 1st Place: Certificate + Filmmaker's Kit",
-        "🥈 2nd Place: Certificate + Goodies",
-        "🥉 3rd Place: Certificate + Goodies"
-      ],
       rules: [
         "Individual or team participation",
         "All footage must be captured during TechFest",
         "At least 2 creative effects required",
-        "Final submission by Day 3"
-      ],
-      requirements: [
-        "Camera or smartphone with good video quality",
-        "Video editing software (CapCut, Premiere Pro, etc.)",
-        "Basic cinematography skills",
-        "Creative eye for storytelling"
+        "Final submission by Day 2",
+
       ],
       registration: {
         fee: "Free",
         deadline: "Day 1 of TechFest"
       }
     }
-  }
+  },
+  {
+    title: "💡 Tech Exhibition Launch (Stalls & Demos)",
+    description: "Explore innovative projects, gadgets, and demos by students and tech enthusiasts.",
+    date: "01-September",
+    time: "10:00 AM – 1:00 PM",
+    location: "College Campus - Exhibition Hall",
+    icon: "💡",
+    details: {
+      overview:
+        "An open exhibition where students and innovators showcase their projects, working models, and tech prototypes. Visitors can explore stalls, interact with creators, and experience hands-on demos.",
+      highlights: [
+        "Live demonstrations of projects",
+        "Innovative gadgets and prototypes",
+        "Interactive tech stalls",
+        "One-on-one interaction with creators"
+      ],
+      rules: [
+        "Participants must set up stalls before the event starts",
+        "Ensure safety measures for live demos",
+        "No hazardous materials or unsafe devices allowed",
+        "Maintain cleanliness and professionalism at stalls",
+        "💡 NOTE : Bring all necessary materials, chargers, and extension boards for your setup"
+      ],
+      registration: {
+        fee: "Free",
+        deadline: "TBD"
+      }
+    }
+  },
+  {
+    title: "🧠 Tech Quest (Quiz Challenge)",
+    description: "Test your tech knowledge with fun and challenging rounds.",
+    date: "30-August",
+    time: "11:00 AM – 1:00 PM",
+    location: "College Campus - Seminar Hall",
+    icon: "🧠",
+    details: {
+      overview:
+        "A quiz competition covering technology, programming, and current trends. Compete through multiple exciting rounds to prove your knowledge.",
+      rounds: [
+        "Round 1: MCQ Battle – General tech knowledge",
+        "Round 2: Code & Debug – Fix errors or find outputs",
+        "Round 3: Rapid Fire – Quick answer challenge",
+        "Round 4: Final Buzzer Round – Fastest answers win"
+      ],
+      rules: [
+        "Teams of 2–3 members",
+        "No use of mobile phones or gadgets",
+        "Tie-breaker will be used if scores are equal",
+        "💡 NOTE : Bring a fully charged laptop only for coding round"
+      ],
+      registration: {
+        fee: "Free",
+        deadline: "TBD"
+      }
+    }
+  },
+
+
+
 ];
 
 
@@ -284,7 +342,7 @@ const EventsSection = () => {
             🚀 Space Missions
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Explore our exciting intergalactic missions (tech events) where innovation meets adventure. 
+            Explore our exciting intergalactic missions (tech events) where innovation meets adventure.
             Each mission is designed to test your skills, creativity, and passion for tech!
           </p>
         </div>
@@ -292,24 +350,22 @@ const EventsSection = () => {
         {/* Events Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {events.map((event, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="event-card group cursor-pointer"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              {/* Event Icon */}
-              <div className="text-4xl mb-4 cosmic-float">
-                {event.icon}
-              </div>
+
 
               {/* Event Content */}
               <Dialog>
                 <DialogTrigger asChild>
                   <div className="space-y-4">
+
                     <h3 className="text-2xl font-bold text-foreground group-hover:text-primary transition-colors">
                       {event.title}
                     </h3>
-                    
+
                     <p className="text-muted-foreground leading-relaxed">
                       {event.description}
                     </p>
@@ -320,12 +376,12 @@ const EventsSection = () => {
                         <Calendar className="w-4 h-4 text-primary" />
                         <span className="text-foreground/80">{event.date}</span>
                       </div>
-                      
+
                       <div className="flex items-center gap-3 text-sm">
                         <Clock className="w-4 h-4 text-secondary" />
                         <span className="text-foreground/80">{event.time}</span>
                       </div>
-                      
+
                       <div className="flex items-center gap-3 text-sm">
                         <MapPin className="w-4 h-4 text-accent" />
                         <span className="text-foreground/80">{event.location}</span>
@@ -343,7 +399,7 @@ const EventsSection = () => {
                       {event.icon} {event.title}
                     </DialogTitle>
                     <DialogTrigger asChild>
-                      <button 
+                      <button
                         className="rounded-full p-2.5 bg-secondary/10 hover:bg-secondary/20 transition-all duration-200 border border-border/50 hover:border-border flex items-center justify-center"
                         aria-label="Close dialog"
                       >
@@ -353,7 +409,7 @@ const EventsSection = () => {
                       </button>
                     </DialogTrigger>
                   </div>
-                  
+
                   <div className="space-y-6 p-6">
                     {/* Overview */}
                     <div className="space-y-2 p-3 md:p-4 bg-primary/5 rounded-lg">
@@ -366,7 +422,8 @@ const EventsSection = () => {
                       </p>
                     </div>
 
-                    {/* Event Specific Content */}
+                    {/* Event Specific Sections */}
+                    {/* HustleHub - Problem Statements */}
                     {event.details.problemStatements && (
                       <div className="space-y-2 p-3 md:p-4 bg-secondary/5 rounded-lg">
                         <h4 className="font-semibold flex items-center gap-2 text-base md:text-lg">
@@ -401,26 +458,82 @@ const EventsSection = () => {
                       </div>
                     )}
 
-                    {event.details.judgingCriteria && (
-                      <div className="space-y-2 p-3 md:p-4 bg-accent/5 rounded-lg">
+                    {/* Startup Xpress - Core Tasks & Challenges */}
+                    {event.details.coreTasks && (
+                      <div className="space-y-2 p-3 md:p-4 bg-secondary/5 rounded-lg">
                         <h4 className="font-semibold flex items-center gap-2 text-base md:text-lg">
-                          <Trophy className="w-4 h-4 md:w-5 md:h-5 text-accent" />
-                          Judging Criteria
+                          <List className="w-4 h-4 md:w-5 md:h-5 text-secondary" />
+                          Core Tasks
                         </h4>
-                        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                          {event.details.judgingCriteria.map((criteria, index) => (
-                            <li key={index} className="text-sm md:text-base text-muted-foreground bg-background/50 p-2 rounded-md">
-                              {criteria}
+                        <ul className="list-disc list-inside space-y-1">
+                          {event.details.coreTasks.map((task, index) => (
+                            <li key={index} className="text-sm md:text-base text-muted-foreground">
+                              {task}
                             </li>
                           ))}
                         </ul>
                       </div>
                     )}
 
-                    {event.details.phases && (
+                    {/* Bonus Challenges - For Startup Xpress */}
+                    {event.details.bonusChallenges && (
+                      <div className="space-y-2 p-3 md:p-4 bg-accent/5 rounded-lg">
+                        <h4 className="font-semibold flex items-center gap-2 text-base md:text-lg">
+                          <Trophy className="w-4 h-4 md:w-5 md:h-5 text-accent" />
+                          Bonus Challenges
+                        </h4>
+                        <ul className="list-disc list-inside space-y-1">
+                          {event.details.bonusChallenges.map((challenge, index) => (
+                            <li key={index} className="text-sm md:text-base text-muted-foreground">
+                              {challenge}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    {/* Pitch Details - For Startup Xpress */}
+                    {event.details.pitch && (
                       <div className="space-y-2 p-3 md:p-4 bg-primary/5 rounded-lg">
                         <h4 className="font-semibold flex items-center gap-2 text-base md:text-lg">
-                          <List className="w-4 h-4 md:w-5 md:h-5 text-primary" />
+                          <ScrollText className="w-4 h-4 md:w-5 md:h-5 text-primary" />
+                          Pitch Details
+                        </h4>
+                        <div className="space-y-2">
+                          <p className="text-sm md:text-base font-medium">Duration: {event.details.pitch.duration}</p>
+                          <ul className="list-disc list-inside space-y-1">
+                            {event.details.pitch.tasks.map((task, index) => (
+                              <li key={index} className="text-sm md:text-base text-muted-foreground">
+                                {task}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Rounds - For RoboRush */}
+                    {event.details.rounds && (
+                      <div className="space-y-2 p-3 md:p-4 bg-secondary/5 rounded-lg">
+                        <h4 className="font-semibold flex items-center gap-2 text-base md:text-lg">
+                          <List className="w-4 h-4 md:w-5 md:h-5 text-secondary" />
+                          Competition Rounds
+                        </h4>
+                        <ul className="list-disc list-inside space-y-1">
+                          {event.details.rounds.map((round, index) => (
+                            <li key={index} className="text-sm md:text-base text-muted-foreground">
+                              {round}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    {/* Phases - For FestFrame */}
+                    {event.details.phases && (
+                      <div className="space-y-2 p-3 md:p-4 bg-accent/5 rounded-lg">
+                        <h4 className="font-semibold flex items-center gap-2 text-base md:text-lg">
+                          <List className="w-4 h-4 md:w-5 md:h-5 text-accent" />
                           Event Phases
                         </h4>
                         <div className="space-y-4">
@@ -438,8 +551,41 @@ const EventsSection = () => {
                       </div>
                     )}
 
-                    {/* Requirements */}
+
+                    {event.details.judgingCriteria && (
+                      <div className="space-y-2 p-3 md:p-4 bg-accent/5 rounded-lg">
+                        <h4 className="font-semibold flex items-center gap-2 text-base md:text-lg">
+                          <Trophy className="w-4 h-4 md:w-5 md:h-5 text-accent" />
+                          Judging Criteria
+                        </h4>
+                        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                          {event.details.judgingCriteria.map((criteria, index) => (
+                            <li key={index} className="text-sm md:text-base text-muted-foreground bg-background/50 p-2 rounded-md">
+                              {criteria}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+
+                    {/* rules */}
                     <div className="space-y-2 p-3 md:p-4 bg-primary/5 rounded-lg">
+                      <h4 className="font-semibold flex items-center gap-2 text-base md:text-lg">
+                        <GraduationCap className="w-4 h-4 md:w-5 md:h-5 text-primary" />
+                        Rules
+                      </h4>
+                      <ul className="list-disc list-inside space-y-1">
+                        {event.details.rules.map((rule, index) => (
+                          <li key={index} className="text-sm md:text-base text-muted-foreground">
+                            {rule}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    {/* Requirements */}
+                    {/* <div className="space-y-2 p-3 md:p-4 bg-primary/5 rounded-lg">
                       <h4 className="font-semibold flex items-center gap-2 text-base md:text-lg">
                         <GraduationCap className="w-4 h-4 md:w-5 md:h-5 text-primary" />
                         Requirements
@@ -451,7 +597,7 @@ const EventsSection = () => {
                           </li>
                         ))}
                       </ul>
-                    </div>
+                    </div> */}
 
                     {/* Registration */}
                     <div className="space-y-3 bg-secondary/10 p-4 rounded-lg mt-6">
@@ -470,9 +616,9 @@ const EventsSection = () => {
                       </div>
 
                       <div className="pt-4 text-center">
-                        <a 
-                          href="https://forms.gle/j5LPUXxFRsgvDjZw8" 
-                          target="_blank" 
+                        <a
+                          href="https://forms.gle/j5LPUXxFRsgvDjZw8"
+                          target="_blank"
                           rel="noopener noreferrer"
                           className="inline-block"
                         >
