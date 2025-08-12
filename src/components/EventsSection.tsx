@@ -617,7 +617,7 @@ const EventsSection = () => {
 
                       <div className="pt-4 text-center">
                         <a
-                          href="https://forms.gle/j5LPUXxFRsgvDjZw8"
+                          href="https://forms.gle/ZsnWuaRkNnDpetZo9"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-block"
