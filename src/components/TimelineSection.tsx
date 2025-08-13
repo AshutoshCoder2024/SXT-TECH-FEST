@@ -3,23 +3,38 @@ const timelineStops = [
     milestone: "🎉 Grand Opening",
     event: "Inauguration Ceremony",
     date: "Day 1 – August 29, 2025",
-    time: "10:00 AM – 11:00 AM",
+    time: "10:00 AM – 12:30 AM",
     description: "Welcome address, lamp lighting, speeches by Principal and Chief Guest (MeitY/HP), felicitation, and a cultural performance."
   },
   {
-    milestone: "🤖 AI Insights",
-    event: "Workshop – AI by MeitY",
+    milestone: "🤖 AI-ML Insights",
+    event: "Workshop – AI, ML by MeitY",
     date: "Day 1 – August 29, 2025",
     time: "11:00 AM – 12:30 PM",
     description: "1.5-hour interactive workshop on Artificial Intelligence, led by experts from MeitY."
   },
+  // {
+  //   milestone: "🧠 Brain Buzz",
+  //   event: "Tech   Quiz",
+  //   date: "Day 1 – August 30, 2025",
+  //   time: "12:00 PM – 1:00 PM",
+  //   description: "Fun and engaging tech challenges and quizzes running alongside the exhibition."
+  // },
   {
-    milestone: "⚡ HustleHub",
-    event: "Hackathon",
+    milestone: "🤖 RoboRush F1",
+    event: "Robot Race",
     date: "Day 1 – August 29, 2025",
-    time: "1:00 PM – 4:00 PM",
-    description: "3-hour coding sprint to solve real-world challenges. Final pitches presented at the end of the day."
+    time: "1:30 PM – 2:00 PM",
+    description: "Fast-paced F1-themed robot race at the Basketball Court."
   },
+   {
+    milestone: "🚀 Future Showcase",
+    event: "Tech Exhibition Launch",
+    date: "Day 2 – August 30, 2025",
+    time: "10:00 AM – 1:00 PM",
+    description: "Opening of stalls and demos showcasing cutting-edge innovations."
+  },
+
   {
     milestone: "🎮 Gaming Arena",
     event: "Esports Tournament by HP",
@@ -34,19 +49,13 @@ const timelineStops = [
     time: "All Day",
     description: "On-ground coverage and highlight video creation capturing the best moments of Day 1."
   },
+  
   {
-    milestone: "🚀 Future Showcase",
-    event: "Tech Exhibition Launch",
+    milestone: "⚡ HustleHub",
+    event: "Hackathon",
     date: "Day 2 – August 30, 2025",
-    time: "10:00 AM – 1:00 PM",
-    description: "Opening of stalls and demos showcasing cutting-edge innovations."
-  },
-  {
-    milestone: "🧠 Brain Buzz",
-    event: "Tech   Quiz",
-    date: "Day 2 – August 30, 2025",
-    time: "12:00 PM – 1:00 PM",
-    description: "Fun and engaging tech challenges and quizzes running alongside the exhibition."
+    time: "1:00 PM – 4:00 PM",
+    description: "3-hour coding sprint to solve college  campus life problem ."
   },
   {
     milestone: "🚀 Startup Sprint",
@@ -55,13 +64,10 @@ const timelineStops = [
     time: "11:00 AM – 2:00 PM",
     description: "3-hour challenge to create a brand and pitch your startup idea in Fr. Proost Hall."
   },
-  {
-    milestone: "🤖 RoboRush F1",
-    event: "Robot Race",
-    date: "Day 2 – August 30, 2025",
-    time: "1:30 PM – 2:00 PM",
-    description: "Fast-paced F1-themed robot race at the Basketball Court."
-  },
+
+ 
+
+
   {
     milestone: "🎥 Final Cut",
     event: "PR & Creative Final Video Presentation",
@@ -132,9 +138,9 @@ const TimelineSection = () => {
                           {stop.date}
                         </p>
                         {/* Time*/}
-                        <p className="text-accent font-medium">
+                        {/* <p className="text-accent font-medium">
                           {stop.time}
-                        </p>
+                        </p> */}
 
 
                         {/* Description */}

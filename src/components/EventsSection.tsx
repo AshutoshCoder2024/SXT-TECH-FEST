@@ -5,9 +5,8 @@ const events = [
   {
     title: "⚡ HustleHub (Hackathon)",
     description: "3 Hours • One Problem • Infinite Hustle — Code, create, and innovate under pressure to solve real-world campus problems.",
-    date: "29-August",
-    time: "(1:00 PM – 4:00 PM)"
-    ,
+    date: "30-August",
+    time: "(11:30 PM – 2:30 PM)",
     location: "College Campus - Hall- C",
     icon: "⚡",
     details: {
@@ -15,7 +14,7 @@ const events = [
         "A high-energy hackathon where teams tackle real-world campus challenges and deliver working solutions in just 3 hours. Expect rapid brainstorming, intense coding, and a surprise mid-event twist to test adaptability.",
       problemStatements: [
         {
-          title: "Smart Attendance System",
+          title: "1. Smart Attendance System",
           Description: "Build a web/app-based attendance tracker for students and teachers, with automated absentee notifications",
 
           core: [
@@ -29,12 +28,12 @@ const events = [
           ]
         },
         {
-          title: "College Event Hub",
+          title: " 2. College Event Hub",
           Description: "A platform that lists all upcoming college events, allows registrations, and sends reminders.",
 
           core: [
             "Event listing with date, time, and description",
-            "Online event registration"
+            "Event registration feature"
           ],
           optional: [
             "Countdown timers for upcoming events",
@@ -44,11 +43,11 @@ const events = [
           ]
         },
         {
-          title: "Lost & Found Hub",
+          title: "3. Lost & Found Hub",
           Description: "A digital hub where students can report lost items and claim found ones.",
           core: [
             "Post lost/found items with basic details",
-            "Search or browse items"
+            "View and search for reported items"
           ],
           optional: [
             "Image upload for better identification",
@@ -57,7 +56,7 @@ const events = [
           ]
         },
         {
-          title: "Anonymous Feedback Box",
+          title: "4. Anonymous Feedback Box",
           Description: "A platform for students to share feedback or concerns with theadministration anonymously",
           core: [
             "Submit feedback without revealing identity",
@@ -71,7 +70,7 @@ const events = [
           ]
         },
         {
-          title: "Student Skill Exchange",
+          title: "5.Student Skill Exchange",
           Description: "A barter platform where students can exchange skills (e.g., “Teach me Photoshop, I’ll help you with coding”)",
           core: [
             "List skills offered and skills needed",
@@ -116,7 +115,7 @@ const events = [
 
       registration: {
         fee: "Free",
-        deadline: "TBD"
+        deadline: "27-August"
       }
     }
   },
@@ -124,7 +123,7 @@ const events = [
     title: "🚀 Startup Xpress (Brainstorm. Build. Pitch)",
     description: "Turn your idea into a brand in 3 hours — create, design, and pitch to win.",
     date: "30-August",
-    time: "11:00am  to 2:00 pm",
+    time: "11:30am  to 2:30 pm",
     location: "Fr. Proost Hall",
     icon: "🚀",
     details: {
@@ -168,16 +167,16 @@ const events = [
       // ],
       registration: {
         fee: "Free",
-        deadline: "TBD"
+        deadline: "27-August"
       }
     }
   },
   {
     title: "🤖 RoboRush F1",
     description: "Build, race, and dominate the F1-inspired robot track.",
-    date: "TBD",
+    date: "29-August",
     time: "TBD",
-    location: "College Ground - Robo Track",
+    location: "Basketball Court",
     icon: "🤖",
     details: {
       overview:
@@ -206,7 +205,7 @@ const events = [
       // ],
       registration: {
         fee: "Free",
-        deadline: "TBD"
+        deadline: "27-August"
       }
     }
   },
@@ -262,18 +261,18 @@ const events = [
       ],
       registration: {
         fee: "Free",
-        deadline: "Day 1 of TechFest"
+        deadline: "27-August"
       }
     }
   },
   {
     title: "💡 Tech Exhibition Launch (Stalls & Demos)",
     description: "Explore innovative projects, gadgets, and demos by students and tech enthusiasts.",
-    date: "01-September",
-    time: "10:00 AM – 1:00 PM",
-    location: "College Campus - Exhibition Hall",
+    date: "29-August",
+    time: "1:00pm to 4:00 pm  ",
+    location: "College Campus: Hall-c",
     icon: "💡",
-    details: {
+    details: {  
       overview:
         "An open exhibition where students and innovators showcase their projects, working models, and tech prototypes. Visitors can explore stalls, interact with creators, and experience hands-on demos.",
       highlights: [
@@ -291,7 +290,7 @@ const events = [
       ],
       registration: {
         fee: "Free",
-        deadline: "TBD"
+        deadline: "27-August"
       }
     }
   },
@@ -300,14 +299,13 @@ const events = [
     description: "Test your tech knowledge with fun and challenging rounds.",
     date: "30-August",
     time: "11:00 AM – 1:00 PM",
-    location: "College Campus - Seminar Hall",
+    location: "College Campus -Hall-c",
     icon: "🧠",
     details: {
       overview:
         "A quiz competition covering technology, programming, and current trends. Compete through multiple exciting rounds to prove your knowledge.",
       rounds: [
         "Round 1: MCQ Battle – General tech knowledge",
-        "Round 2: Code & Debug – Fix errors or find outputs",
         "Round 3: Rapid Fire – Quick answer challenge",
         "Round 4: Final Buzzer Round – Fastest answers win"
       ],
@@ -323,14 +321,38 @@ const events = [
       }
     }
   },
+  {
+  title: "🤖 Workshop – AI by MeitY",
+  description: "Learn the fundamentals and applications of Artificial Intelligence from MeitY experts.",
+  date: "30-August",
+  time: "2:00 PM – 3:30 PM",
+  location: "College Campus - Hall-C",
+  icon: "🤖",
+  details: {
+    overview:
+      "An interactive workshop conducted by MeitY professionals, covering AI basics, real-world applications, and future trends. Includes live demos and Q&A sessions to enhance your understanding.",
+    topics: [
+      "Introduction to Artificial Intelligence",
+      "Machine Learning vs Deep Learning",
+      "AI in Everyday Life",
+      "Future Trends and Career Opportunities"
+    ],
+    rules: [
+      "Open for all students (any stream)",
+      "Bring your own notebook and pen for notes",
+      "💡 NOTE : Ensure you arrive 10 minutes early to get a good seat"
+    ],
+    registration: {
+      fee: "Free",
+      deadline: "27-August"
+    }
+  }
+}
+
 
 
 
 ];
-
-
-
-
 
 const EventsSection = () => {
   return (
@@ -433,7 +455,9 @@ const EventsSection = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                           {event.details.problemStatements.map((problem, index) => (
                             <div key={index} className="space-y-2 p-3 bg-background/50 rounded-md">
-                              <h5 className="font-medium text-sm md:text-base">{problem.title}</h5>
+                              <h3 className="font-medium text-sm md:text-base text-orange-500 ">{problem.title}</h3>
+                              <h6 className="font-medium text-sm md:text-base">{problem.Description}</h6>
+                              
                               <div className="space-y-2">
                                 <div>
                                   <p className="text-xs md:text-sm font-medium text-primary">Core Features:</p>
@@ -443,14 +467,14 @@ const EventsSection = () => {
                                     ))}
                                   </ul>
                                 </div>
-                                <div>
+                                {/* <div>
                                   <p className="text-xs md:text-sm font-medium text-secondary">Optional Features:</p>
                                   <ul className="list-disc list-inside text-xs md:text-sm text-muted-foreground">
                                     {problem.optional.map((item, idx) => (
                                       <li key={idx}>{item}</li>
                                     ))}
                                   </ul>
-                                </div>
+                                </div> */}
                               </div>
                             </div>
                           ))}
@@ -476,7 +500,7 @@ const EventsSection = () => {
                     )}
 
                     {/* Bonus Challenges - For Startup Xpress */}
-                    {event.details.bonusChallenges && (
+                    {/* {event.details.bonusChallenges && (
                       <div className="space-y-2 p-3 md:p-4 bg-accent/5 rounded-lg">
                         <h4 className="font-semibold flex items-center gap-2 text-base md:text-lg">
                           <Trophy className="w-4 h-4 md:w-5 md:h-5 text-accent" />
@@ -490,7 +514,7 @@ const EventsSection = () => {
                           ))}
                         </ul>
                       </div>
-                    )}
+                    )} */}
 
                     {/* Pitch Details - For Startup Xpress */}
                     {event.details.pitch && (
