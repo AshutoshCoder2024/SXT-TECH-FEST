@@ -68,10 +68,10 @@ const ContactSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-accent via-secondary to-primary bg-clip-text text-transparent mb-6">
-            Command Center
+            Get in Touch
           </h2>
           <p className="text-xl text-muted-foreground">
-            Mission Control is standing by. Send us your transmission!
+            Have a question or idea? Let’s connect and make TechFest even better.
           </p>
         </div>
 
@@ -80,14 +80,14 @@ const ContactSection = () => {
           <div className="cosmic-glass p-8 rounded-2xl cosmic-glow">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="text-center mb-8">
-                <h3 className="text-2xl font-bold text-foreground mb-2">Send Transmission</h3>
-                <p className="text-muted-foreground">Reach out to our mission specialists</p>
+                <h3 className="text-2xl font-bold text-foreground mb-2">Send Us a Messag </h3>
+                <p className="text-muted-foreground">We’d love to hear from you — drop your thoughts below</p>
               </div>
 
               {/* Name Input */}
               <div className="space-y-2">
                 <label htmlFor="name" className="text-sm font-medium text-foreground">
-                  Astronaut Name *
+                  Your Name * 
                 </label>
                 <Input
                   id="name"
@@ -104,7 +104,7 @@ const ContactSection = () => {
               {/* Email Input */}
               <div className="space-y-2">
                 <label htmlFor="email" className="text-sm font-medium text-foreground">
-                  Space Communicator *
+                   Email Address  *
                 </label>
                 <Input
                   id="email"
@@ -114,14 +114,14 @@ const ContactSection = () => {
                   value={formData.email}
                   onChange={handleChange}
                   className="cosmic-glass border-border/50 focus:border-primary bg-card/50"
-                  placeholder="astronaut@galaxy.com"
+                  placeholder="xyz@gmail.com"
                 />
               </div>
 
               {/* Message Textarea */}
               <div className="space-y-2">
                 <label htmlFor="message" className="text-sm font-medium text-foreground">
-                  Mission Message *
+                  Your Message *
                 </label>
                 <Textarea
                   id="message"
@@ -131,7 +131,7 @@ const ContactSection = () => {
                   value={formData.message}
                   onChange={handleChange}
                   className="cosmic-glass border-border/50 focus:border-primary bg-card/50 resize-none"
-                  placeholder="Tell us about your mission objectives..."
+                  placeholder="Tell us about your  message..."
                 />
               </div>
 
@@ -144,7 +144,7 @@ const ContactSection = () => {
                 {isSubmitting ? (
                   <>
                     <div className="animate-spin w-5 h-5 border-2 border-foreground border-t-transparent rounded-full mr-3" />
-                    Launching Message...
+                    Sending Message...
                   </>
                 ) : (
                   <>
@@ -159,14 +159,14 @@ const ContactSection = () => {
           {/* Contact Info Panel */}
           <div className="space-y-8">
             <div className="cosmic-glass p-8 rounded-2xl cosmic-glow">
-              <h3 className="text-2xl font-bold text-foreground mb-6">Mission Control HQ</h3>
+              <h3 className="text-2xl font-bold text-foreground mb-6">Contact Us</h3>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="cosmic-glass p-3 rounded-lg">
                     <Mail className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <div className="font-semibold text-foreground">Email Transmission</div>
+                    <div className="font-semibold text-foreground">Email</div>
                     <a href="mailto:xts@sxcran.org" className="text-primary hover:text-primary/80">
                       xts@sxcran.org
                     </a>
@@ -190,7 +190,7 @@ const ContactSection = () => {
                     <MapPin className="w-6 h-6 text-accent" />
                   </div>
                   <div>
-                    <div className="font-semibold text-foreground">Launch Location</div>
+                    <div className="font-semibold text-foreground">Address</div>
                     <div className="text-muted-foreground">
                       (St. Xavier's College, Ranchi)<br />
                       (Dr. Camil Bulcke Path, Pathalkudwa, Nayatoli)<br />
