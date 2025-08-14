@@ -6,7 +6,7 @@ const events = [
     title: "🤖 Workshop – AI ML by MeitY",
     description: "Learn the fundamentals and applications of Artificial Intelligence  and Machine Learing from MeitY experts.",
     date: "29-August",
-    time: "2:00 PM – 3:30 PM",
+    time: "TBD",
     location: "College Campus - Hall-C",
     icon: "🤖",
     details: {

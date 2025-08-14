@@ -8,7 +8,7 @@ const CountdownSection = () => {
     seconds: 0
   });
   useEffect(() => {
-    const targetDate = new Date('2025-08-28T00:00:00').getTime();
+    const targetDate = new Date('2025-08-29T00:00:00').getTime();
 
     const updateCountdown = () => {
       const now = new Date().getTime();
