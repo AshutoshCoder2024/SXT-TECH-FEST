@@ -8,7 +8,7 @@ const faqs = [
   },
   {
     question: "Is it an online or offline event?",
-    answer: "It’s an offline event at our college campus. Be there to experience the buzz in person!"
+    answer: "It’s an offline event at St. Xavier's College, Ranchi. Be there to experience the buzz in person!"
   },
   {
     question: "What should I bring?",
