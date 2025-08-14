@@ -4,29 +4,30 @@ import { ChevronDown, ChevronUp } from "lucide-react";
 const faqs = [
   {
     question: "Who can participate?",
-    answer: "Anyone with a passion for innovation — students, beginners, coders, designers — everyone is welcome aboard!"
+    answer: "Anyone interested in tech and innovation — students, beginners, coders, designers — all are welcome!"
   },
   {
     question: "Is it an online or offline event?",
-    answer: "The hackathon will be conducted offline at our college campus. Get ready for an out-of-this-world in-person experience!"
+    answer: "It’s an offline event at our college campus. Be there to experience the buzz in person!"
   },
   {
     question: "What should I bring?",
-    answer: "Your laptop, charger, student ID, and most importantly — your creativity and energy!"
+    answer: "Laptop, charger, student ID, and most importantly — your ideas and enthusiasm."
   },
   {
     question: "Do I need a team?",
-    answer: "You can register solo or as a team (max 4 members). Don't worry, we'll help you find your crew if you're flying solo."
+    answer: "You can join solo or with a team (up to 4 members). If you’re solo, we can match you with other participants."
   },
   {
-    question: "Are there any prizes?",
-    answer: "Yes! Exciting prizes, goodies, and swags await winners and participants. Let your innovation shine!"
+    question: "Are there prizes?",
+    answer: "Absolutely! Expect exciting prizes, goodies, and exclusive swags for winners and participants."
   },
   {
-    question: "Is there any registration fee?",
-    answer: "Nope, it's completely free! Just register and get ready to launch!"
+    question: "Is there a registration fee?",
+    answer: "No, it’s completely free! Just sign up and join the fun."
   }
 ];
+
 
 const FAQSection = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);

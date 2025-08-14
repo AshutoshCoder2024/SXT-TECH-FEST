@@ -272,7 +272,7 @@ const events = [
     time: "1:00pm to 4:00 pm  ",
     location: "College Campus: Hall-c",
     icon: "💡",
-    details: {  
+    details: {
       overview:
         "An open exhibition where students and innovators showcase their projects, working models, and tech prototypes. Visitors can explore stalls, interact with creators, and experience hands-on demos.",
       highlights: [
@@ -322,32 +322,32 @@ const events = [
     }
   },
   {
-  title: "🤖 Workshop – AI by MeitY",
-  description: "Learn the fundamentals and applications of Artificial Intelligence from MeitY experts.",
-  date: "30-August",
-  time: "2:00 PM – 3:30 PM",
-  location: "College Campus - Hall-C",
-  icon: "🤖",
-  details: {
-    overview:
-      "An interactive workshop conducted by MeitY professionals, covering AI basics, real-world applications, and future trends. Includes live demos and Q&A sessions to enhance your understanding.",
-    topics: [
-      "Introduction to Artificial Intelligence",
-      "Machine Learning vs Deep Learning",
-      "AI in Everyday Life",
-      "Future Trends and Career Opportunities"
-    ],
-    rules: [
-      "Open for all students (any stream)",
-      "Bring your own notebook and pen for notes",
-      "💡 NOTE : Ensure you arrive 10 minutes early to get a good seat"
-    ],
-    registration: {
-      fee: "Free",
-      deadline: "27-August"
+    title: "🤖 Workshop – AI by MeitY",
+    description: "Learn the fundamentals and applications of Artificial Intelligence from MeitY experts.",
+    date: "30-August",
+    time: "2:00 PM – 3:30 PM",
+    location: "College Campus - Hall-C",
+    icon: "🤖",
+    details: {
+      overview:
+        "An interactive workshop conducted by MeitY professionals, covering AI basics, real-world applications, and future trends. Includes live demos and Q&A sessions to enhance your understanding.",
+      topics: [
+        "Introduction to Artificial Intelligence",
+        "Machine Learning vs Deep Learning",
+        "AI in Everyday Life",
+        "Future Trends and Career Opportunities"
+      ],
+      rules: [
+        "Open for all students (any stream)",
+        "Bring your own notebook and pen for notes",
+        "💡 NOTE : Ensure you arrive 10 minutes early to get a good seat"
+      ],
+      registration: {
+        fee: "Free",
+        deadline: "27-August"
+      }
     }
   }
-}
 
 
 
@@ -361,11 +361,11 @@ const EventsSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-secondary via-accent to-primary bg-clip-text text-transparent mb-6">
-            🚀 Space Missions
+            ⚡  Events
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Explore our exciting intergalactic missions (tech events) where innovation meets adventure.
-            Each mission is designed to test your skills, creativity, and passion for tech!
+            Dive into our exciting line-up of events where ideas, skills, and creativity come together.
+            Each event is built to challenge you, inspire you, and spark innovation.
           </p>
         </div>
 
@@ -457,7 +457,7 @@ const EventsSection = () => {
                             <div key={index} className="space-y-2 p-3 bg-background/50 rounded-md">
                               <h3 className="font-medium text-sm md:text-base text-orange-500 ">{problem.title}</h3>
                               <h6 className="font-medium text-sm md:text-base">{problem.Description}</h6>
-                              
+
                               <div className="space-y-2">
                                 <div>
                                   <p className="text-xs md:text-sm font-medium text-primary">Core Features:</p>

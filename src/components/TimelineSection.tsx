@@ -27,7 +27,7 @@ const timelineStops = [
     time: "1:30 PM – 2:00 PM",
     description: "Fast-paced F1-themed robot race at the Basketball Court."
   },
-   {
+  {
     milestone: "🚀 Future Showcase",
     event: "Tech Exhibition Launch",
     date: "Day 2 – August 30, 2025",
@@ -49,7 +49,7 @@ const timelineStops = [
     time: "All Day",
     description: "On-ground coverage and highlight video creation capturing the best moments of Day 1."
   },
-  
+
   {
     milestone: "⚡ HustleHub",
     event: "Hackathon",
@@ -65,7 +65,7 @@ const timelineStops = [
     description: "3-hour challenge to create a brand and pitch your startup idea in Fr. Proost Hall."
   },
 
- 
+
 
 
   {
@@ -84,10 +84,6 @@ const timelineStops = [
   }
 ];
 
-
-
-
-
 const TimelineSection = () => {
   return (
     <section id="journey-timeline" className="py-20 px-4 relative">
@@ -95,10 +91,11 @@ const TimelineSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent mb-6">
-            🛰️ Mission Journey Timeline
+            📅 TechFest 2025 Schedule
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Embark on the ultimate TechFest 2025 adventure — from takeoff to touchdown, experience every epic moment of innovation
+            Discover all the exciting events, challenges, and moments that make TechFest unforgettable.
+
           </p>
         </div>
 

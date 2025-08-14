@@ -5,7 +5,7 @@ const AboutSection = () => {
         {/* Section Header */}
         <div className="mb-12">
           <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent mb-6">
-            Mission Briefing
+            About the Fest
           </h2>
         </div>
 
@@ -18,21 +18,18 @@ const AboutSection = () => {
             
             <div className="space-y-6 text-lg md:text-xl text-muted-foreground leading-relaxed">
               <p>
-                Welcome to the <span className="text-primary font-semibold">ultimate tech adventure</span> of 2025! 
-                Xavier's TechByte Society proudly presents TechFest 2025 – an interstellar journey through the cosmos of innovation.
+                 Welcome to the <span className="text-primary font-semibold">biggest tech celebration</span> of 2025! 
+                Xavier's TechByte Society proudly presents TechFest 2025 – a place where ideas, skills, and creativity come together.
               </p>
               
               <p>
-                Our mission is to unite tech enthusiasts, innovators, and dreamers in a celebration of 
-                <span className="text-secondary font-semibold"> collaborative creation</span>. Whether you're a 
-                seasoned developer or just beginning your tech voyage, this fest offers something extraordinary 
-                for every space traveler.
+                Our goal is to bring <span className="text-secondary font-semibold">tech lovers, creators, and innovators</span> under one roof. 
+                Whether you’re a beginner or an expert, this fest has something exciting for you.
               </p>
               
               <p>
-                Prepare for <span className="text-accent font-semibold">three days of intensive learning</span>, 
-                competitive coding, mind-bending challenges, and networking opportunities that will launch your 
-                career to new galaxies. Join us as we explore uncharted territories of technology and innovation!
+               Get ready for <span className="text-accent font-semibold">two days of learning, competitions, and networking</span>. 
+                Take part in coding challenges, interactive sessions, and meet people who share your passion for technology.
               </p>
             </div>
 
@@ -40,27 +37,26 @@ const AboutSection = () => {
               <div className="cosmic-glass p-6 rounded-lg">
                 <div className="text-3xl mb-3">🌟</div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Learn</h3>
-                <p className="text-muted-foreground">Expert workshops and cutting-edge tech talks</p>
+                <p className="text-muted-foreground">ExWorkshops and tech talks from experts</p>
               </div>
               
               <div className="cosmic-glass p-6 rounded-lg">
                 <div className="text-3xl mb-3">🤝</div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Collaborate</h3>
-                <p className="text-muted-foreground">Team up with fellow tech pioneers</p>
+                <p className="text-muted-foreground">Team up and work on amazing projects</p>
               </div>
               
               <div className="cosmic-glass p-6 rounded-lg">
                 <div className="text-3xl mb-3">🏆</div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Compete</h3>
-                <p className="text-muted-foreground">Win exciting prizes and recognition</p>
+                <p className="text-muted-foreground">how your skills and win prizes</p>
               </div>
             </div>
           </div>
         </div>
-
         {/* Floating Astronaut */}
         <div className="absolute top-1/2 -right-20 hidden lg:block cosmic-float" style={{ animationDelay: '1s' }}>
-          <div className="text-8xl opacity-30">👨‍🚀</div>
+          <div className="text-8xl opacity-30">💻</div>
         </div>
       </div>
     </section>
@@ -68,3 +64,4 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+

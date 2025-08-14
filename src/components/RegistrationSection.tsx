@@ -13,10 +13,10 @@ const RegistrationSection = () => {
         {/* Section Header */}
         <div className="mb-12">
           <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-secondary via-primary to-accent bg-clip-text text-transparent mb-6">
-            Board the Spaceship
+            Register & Be Part of the Action
           </h2>
           <p className="text-xl text-muted-foreground">
-            Ready to explore the tech universe? Register for your mission below!
+            Step into the spotlight — sign up now and show the world your tech skills.
           </p>
         </div>
 
@@ -30,11 +30,11 @@ const RegistrationSection = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h3 className="text-2xl md:text-3xl font-bold text-foreground">
-                Secure Your Launch Pad
+                Lock Your Spot for TechFest 2025
               </h3>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Join hundreds of tech enthusiasts on this incredible journey. Limited seats available
-                for this exclusive interstellar experience.
+                Join hundreds of innovators, coders, and creators for the ultimate tech experience.
+                Seats are limited — don’t miss your chance!
               </p>
             </div>
 
@@ -69,9 +69,9 @@ const RegistrationSection = () => {
 
             {/* Important Info */}
             <div className="space-y-2 text-sm text-muted-foreground">
-              <p>• Registration closes on August 25, 2025</p>
+              <p>• Registration closes: August 27, 2025</p>
               <p>• Bring your student ID and laptop</p>
-              <p>• Teams of max 4 members allowed</p>
+              <p>• Join solo or in teams (up to 4 members)</p>
             </div>
           </div>
 

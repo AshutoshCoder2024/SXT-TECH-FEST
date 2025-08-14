@@ -7,7 +7,6 @@ const CountdownSection = () => {
     minutes: 0,
     seconds: 0
   });
-
   useEffect(() => {
     const targetDate = new Date('2025-08-28T00:00:00').getTime();
 
@@ -30,7 +29,6 @@ const CountdownSection = () => {
 
     return () => clearInterval(interval);
   }, []);
-
   return (
     <section id="countdown" className="py-20 px-4 relative">
       <div className="max-w-4xl mx-auto text-center">
@@ -105,12 +103,11 @@ const CountdownSection = () => {
               <div className="w-3 h-3 bg-primary rounded-full animate-pulse" />
             </div>
             
-            <p className="text-muted-foreground">
-              All systems operational. Prepare for the ultimate tech adventure.
-            </p>
+            {/* <p className="text-muted-foreground">
+              Everything’s ready — time to make it happen.
+            </p> */}
           </div>
         </div>
-
         {/* Spacecraft Dashboard Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           {/* Orbiting Elements */}
@@ -130,5 +127,4 @@ const CountdownSection = () => {
     </section>
   );
 };
-
 export default CountdownSection;

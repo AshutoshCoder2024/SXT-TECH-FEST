@@ -88,10 +88,10 @@ const GallerySection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent mb-6">
-            Stellar Memories
+             Memories
           </h2>
           <p className="text-xl text-muted-foreground">
-            Relive the magic from our previous cosmic adventures
+             A look back at the best moments from past events
           </p>
         </div>
 
