@@ -5,7 +5,7 @@ const AboutSection = () => {
         {/* Section Header */}
         <div className="mb-12">
           <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent mb-6">
-            About the Fest
+            About the TechFest
           </h2>
         </div>
 
