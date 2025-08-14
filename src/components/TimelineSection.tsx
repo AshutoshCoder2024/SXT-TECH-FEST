@@ -30,7 +30,7 @@ const timelineStops = [
   {
     milestone: "🚀 Future Showcase",
     event: "Tech Exhibition Launch",
-    date: "Day 2 – August 30, 2025",
+    date: "Day 1 – August 30, 2025",
     time: "10:00 AM – 1:00 PM",
     description: "Opening of stalls and demos showcasing cutting-edge innovations."
   },

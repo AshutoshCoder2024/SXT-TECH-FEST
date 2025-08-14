@@ -3,7 +3,7 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navItems = [
-  { label: "Mission Briefing", href: "#mission-briefing" },
+  { label: "About Techfest", href: "#mission-briefing" },
   { label: "Events", href: "#events" },
   { label: "Countdown", href: "#countdown" },
   { label: "Timeline", href: "#journey-timeline" },
@@ -74,7 +74,7 @@ const Navigation = () => {
               className="cosmic-button"
               onClick={() => scrollToSection('#boarding')}
             >
-              🚀 Join Mission
+              🚀 Join TechFest
             </Button>
           </div>
 
@@ -116,7 +116,7 @@ const Navigation = () => {
                   transitionDelay: `${navItems.length * 50}ms`
                 }}
               >
-                🚀 Join Mission
+                🚀 Join Techfest
               </Button>
             </div>
           </div>

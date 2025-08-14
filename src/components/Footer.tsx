@@ -14,8 +14,7 @@ const Footer = () => {
                 Xavier's TechByte Society
               </h3>
               <p className="text-muted-foreground">
-                Exploring the cosmos of innovation, one line of code at a time.
-              </p>
+                Code with purpose. Collaborate with passion. Create the future              </p>
             </div>
 
             <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
@@ -29,10 +28,10 @@ const Footer = () => {
             <h4 className="text-xl font-semibold text-foreground">Mission Control</h4>
             <div className="space-y-3 flex flex-col items-center">
               {[
-                { label: "Mission Briefing", href: "#mission-briefing" },
-                { label: "Space Missions", href: "#events" },
+                { label: "About TechFest", href: "#mission-briefing" },
+                { label: " About Events", href: "#events" },
                 { label: "Launch Timeline", href: "#journey-timeline" },
-                { label: "Board Spaceship", href: "#boarding" }
+                { label: "Registation", href: "#boarding" }
               ].map((link, index) => (
                 <button
                   key={index}
@@ -72,7 +71,7 @@ const Footer = () => {
                 className="flex items-center justify-center gap-3 text-muted-foreground hover:text-accent transition-colors group"
               >
                 <Phone className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                <span>+91 9341013395</span>
+                <span>+91 9798535039</span>
               </a>
             </div>
           </div>
@@ -86,15 +85,15 @@ const Footer = () => {
               <span className="ml-2">Made with 💫 for TechFest 2025</span>
             </p>
 
-            {/* <a
-                href="https://www.instagram.com/ashutosh_sahu_00"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center mt-5 justify-center gap-3 text-muted-foreground hover:text-secondary transition-colors group text-centermt-12 pt-8 border-t border-border/30 "
-              >
-                <span>Designed & Built by Ashutosh</span>
-                <Instagram className="w-5 h-5 group-hover:scale-110 transition-transform" />
-              </a> */}
+            <a
+              href="https://www.instagram.com/ashutosh_sahu_00"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center mt-5 justify-center gap-3 text-muted-foreground hover:text-secondary transition-colors group text-centermt-12 pt-8 border-t border-border/30 "
+            >
+              <span>Designed & Developed by Ashutosh</span>
+              <Instagram className="w-5 h-5 group-hover:scale-110 transition-transform" />
+            </a>
           </div>
         </div>
       </div>

@@ -3,6 +3,127 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from 
 import { Button } from "@/components/ui/button";
 const events = [
   {
+    title: "🤖 Workshop – AI ML by MeitY",
+    description: "Learn the fundamentals and applications of Artificial Intelligence  and Machine Learing from MeitY experts.",
+    date: "29-August",
+    time: "2:00 PM – 3:30 PM",
+    location: "College Campus - Hall-C",
+    icon: "🤖",
+    details: {
+      overview:
+        "An interactive workshop conducted by MeitY professionals, covering AI basics, real-world applications, and future trends. Includes live demos and Q&A sessions to enhance your understanding.",
+      topics: [
+        "Introduction to Artificial Intelligence",
+        "Machine Learning vs Deep Learning",
+        "AI in Everyday Life",
+        "Future Trends and Career Opportunities"
+      ],
+      rules: [
+        "Open for all students (any stream)",
+        "Bring your own notebook and pen for notes",
+        "💡 NOTE : Ensure you arrive 10 minutes early to get a good seat"
+      ],
+      registration: {
+        fee: "Free",
+        deadline: "27-August"
+      }
+    }
+  },
+  {
+    title: "🤖 RoboRush F1",
+    description: "Build, race, and dominate the F1-inspired robot track.",
+    date: "29-August",
+    time: "TBD",
+    location: "Basketball Court",
+    icon: "🤖",
+    details: {
+      overview:
+        "Teams build or bring their custom-built racing robots (line followers or remotecontrolled bots) and race them on an F1-inspired track with curves, loops, and checkpoints.",
+      rounds: [
+        "Round 1: Time Trials – One lap to qualify",
+        "Round 2: Knockouts – Head-to-head races",
+        "Round 3: Final Race – Top 4 race together"
+      ],
+      // prizes: [
+      //   "🥇 1st Place: Certificate + Robotics Kit",
+      //   "🥈 2nd Place: Certificate + Goodies",
+      //   "🥉 3rd Place: Certificate + Goodies"
+      // ],
+      rules: [
+        "Teams can have 1–3 members.",
+        "Robots must be self-built or custom-modified (no ready-made toy cars).",
+        "Touching the robot during the race is not allowed unless instructed by the referee.",
+        "If a robot goes off-track, it must restart from the last checkpoint.",
+        "Judges’ decisions will be final and binding."
+      ],
+
+      // requirements: [
+      //   "Functional robot (line-follower or RC)",
+      //   "Tools for quick repairs",
+      // ],
+      registration: {
+        fee: "Free",
+        deadline: "27-August"
+      }
+    }
+  },
+  {
+    title: "🎥 FestFrame (PR & Creative Challenge)",
+    description: "Capture the spirit of TechFest and create an unforgettable highlight video.",
+    date: "TechFest 2 Days(29-30)",
+    time: "All Day",
+    location: "Campus",
+    icon: "🎥",
+    details: {
+      overview:
+        "Document the magic of TechFest! Film, edit, and present a short creative video capturing the best moments, stories, and emotions of the event.",
+      phases: [
+        {
+          phase: "Filming (Day 1)",
+          tasks: [
+            "Capture event highlights & crowd energy",
+            "Interview participants & guests",
+            "Film B-roll of decorations & activities",
+            "Experiment with creative angles and shots"
+          ]
+        },
+        {
+          phase: "Editing (After Day 1)",
+          tasks: [
+            "Add event title & TechFest logo animation",
+            "Use background music to set mood",
+            "Smooth transitions & pacing",
+            "Include at least 2 creative visual effects"
+          ]
+        },
+        {
+          phase: "Presentation (Day 2)",
+          tasks: [
+            "Submit final video",
+            "Judges score creativity, storytelling, and execution"
+          ]
+        }
+      ],
+      judgingCriteria: [
+        "Creativity & Originality – 20 points",
+        "Storytelling Flow – 20 points",
+        "Technical Execution – 20 points",
+        "Use of Effects & Transitions – 20 points"
+      ],
+      rules: [
+        "Individual or team participation",
+        "All footage must be captured during TechFest",
+        "At least 2 creative effects required",
+        "Final submission by Day 2",
+
+      ],
+      registration: {
+        fee: "Free",
+        deadline: "27-August"
+      }
+    }
+  },
+  {
     title: "⚡ HustleHub (Hackathon)",
     description: "3 Hours • One Problem • Infinite Hustle — Code, create, and innovate under pressure to solve real-world campus problems.",
     date: "30-August",
@@ -172,100 +293,6 @@ const events = [
     }
   },
   {
-    title: "🤖 RoboRush F1",
-    description: "Build, race, and dominate the F1-inspired robot track.",
-    date: "29-August",
-    time: "TBD",
-    location: "Basketball Court",
-    icon: "🤖",
-    details: {
-      overview:
-        "Teams build or bring their custom-built racing robots (line followers or remotecontrolled bots) and race them on an F1-inspired track with curves, loops, and checkpoints.",
-      rounds: [
-        "Round 1: Time Trials – One lap to qualify",
-        "Round 2: Knockouts – Head-to-head races",
-        "Round 3: Final Race – Top 4 race together"
-      ],
-      // prizes: [
-      //   "🥇 1st Place: Certificate + Robotics Kit",
-      //   "🥈 2nd Place: Certificate + Goodies",
-      //   "🥉 3rd Place: Certificate + Goodies"
-      // ],
-      rules: [
-        "Teams can have 1–3 members.",
-        "Robots must be self-built or custom-modified (no ready-made toy cars).",
-        "Touching the robot during the race is not allowed unless instructed by the referee.",
-        "If a robot goes off-track, it must restart from the last checkpoint.",
-        "Judges’ decisions will be final and binding."
-      ],
-
-      // requirements: [
-      //   "Functional robot (line-follower or RC)",
-      //   "Tools for quick repairs",
-      // ],
-      registration: {
-        fee: "Free",
-        deadline: "27-August"
-      }
-    }
-  },
-  {
-    title: "🎥 FestFrame (PR & Creative Challenge)",
-    description: "Capture the spirit of TechFest and create an unforgettable highlight video.",
-    date: "TechFest 2 Days(29-30)",
-    time: "All Day",
-    location: "Campus",
-    icon: "🎥",
-    details: {
-      overview:
-        "Document the magic of TechFest! Film, edit, and present a short creative video capturing the best moments, stories, and emotions of the event.",
-      phases: [
-        {
-          phase: "Filming (Day 1)",
-          tasks: [
-            "Capture event highlights & crowd energy",
-            "Interview participants & guests",
-            "Film B-roll of decorations & activities",
-            "Experiment with creative angles and shots"
-          ]
-        },
-        {
-          phase: "Editing (After Day 1)",
-          tasks: [
-            "Add event title & TechFest logo animation",
-            "Use background music to set mood",
-            "Smooth transitions & pacing",
-            "Include at least 2 creative visual effects"
-          ]
-        },
-        {
-          phase: "Presentation (Day 2)",
-          tasks: [
-            "Submit final video",
-            "Judges score creativity, storytelling, and execution"
-          ]
-        }
-      ],
-      judgingCriteria: [
-        "Creativity & Originality – 20 points",
-        "Storytelling Flow – 20 points",
-        "Technical Execution – 20 points",
-        "Use of Effects & Transitions – 20 points"
-      ],
-      rules: [
-        "Individual or team participation",
-        "All footage must be captured during TechFest",
-        "At least 2 creative effects required",
-        "Final submission by Day 2",
-
-      ],
-      registration: {
-        fee: "Free",
-        deadline: "27-August"
-      }
-    }
-  },
-  {
     title: "💡 Tech Exhibition Launch (Stalls & Demos)",
     description: "Explore innovative projects, gadgets, and demos by students and tech enthusiasts.",
     date: "29-August",
@@ -321,39 +348,7 @@ const events = [
       }
     }
   },
-  {
-    title: "🤖 Workshop – AI by MeitY",
-    description: "Learn the fundamentals and applications of Artificial Intelligence from MeitY experts.",
-    date: "30-August",
-    time: "2:00 PM – 3:30 PM",
-    location: "College Campus - Hall-C",
-    icon: "🤖",
-    details: {
-      overview:
-        "An interactive workshop conducted by MeitY professionals, covering AI basics, real-world applications, and future trends. Includes live demos and Q&A sessions to enhance your understanding.",
-      topics: [
-        "Introduction to Artificial Intelligence",
-        "Machine Learning vs Deep Learning",
-        "AI in Everyday Life",
-        "Future Trends and Career Opportunities"
-      ],
-      rules: [
-        "Open for all students (any stream)",
-        "Bring your own notebook and pen for notes",
-        "💡 NOTE : Ensure you arrive 10 minutes early to get a good seat"
-      ],
-      registration: {
-        fee: "Free",
-        deadline: "27-August"
-      }
-    }
-  }
-
-
-
-
 ];
-
 const EventsSection = () => {
   return (
     <section id="events" className="py-20 px-4">
@@ -683,5 +678,4 @@ const EventsSection = () => {
     </section>
   );
 };
-
 export default EventsSection;

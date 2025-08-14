@@ -92,7 +92,7 @@ const FAQSection = () => {
         <div className="text-center mt-12">
           <div className="cosmic-glass p-6 rounded-lg inline-block">
             <p className="text-muted-foreground mb-2">Still have questions?</p>
-            <p className="text-primary font-semibold">Contact our Command Center!</p>
+            <p className="text-primary font-semibold">Contact us</p>
           </div>
         </div>
 

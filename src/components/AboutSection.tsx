@@ -37,7 +37,7 @@ const AboutSection = () => {
               <div className="cosmic-glass p-6 rounded-lg">
                 <div className="text-3xl mb-3">🌟</div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Learn</h3>
-                <p className="text-muted-foreground">ExWorkshops and tech talks from experts</p>
+                <p className="text-muted-foreground">Workshops and tech talks from experts</p>
               </div>
               
               <div className="cosmic-glass p-6 rounded-lg">

@@ -2,58 +2,57 @@ import { useState } from "react";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 
 
-import pe1 from '../assets/past-event/pe1.jpg';
-import pe2 from '../assets/past-event/pe2.jpg';
-import pe3 from '../assets/past-event/pe3.jpg';
-import pe4 from '../assets/past-event/pe4.jpg';
-import pe5 from '../assets/past-event/pe5.jpg';
-import pe6 from '../assets/past-event/pe6.jpg';
-import pe7 from '../assets/past-event/pe7.jpg';
-import pe8 from '../assets/past-event/pe8.jpg';
-import pe9 from '../assets/past-event/pe9.jpg';
+import pe1 from '../assets/past-event/TEchkriti.jpg';
+import pe2 from '../assets/past-event/techkriti2.jpg';
+import pe3 from '../assets/past-event/game.jpg';
+import pe4 from '../assets/past-event/build-with-ai.jpg';
+import pe5 from '../assets/past-event/AI-workshop.jpg';
+import pe6 from '../assets/past-event/sciencefair.jpg';
+
+
 
 const galleryImages = [
   {
     id: 1,
     src: pe1,
-    alt: "TechFest 2024 - Opening Ceremony",
+    alt: "TechKriti-2024",
     year: "2024",
-    event: "Opening Ceremony"
+    event: "TechKriti-2024"
   },
   {
     id: 2,
     src: pe2,
-    alt: "Hackathon Teams Coding",
+    alt: "TechKriti",
     year: "2024", 
-    event: "24hr Hackathon"
+    event: "TechKriti"
   },
   {
     id: 3,
-    src: pe9,
-    alt: "AI Workshop Session",
+    src: pe3,
+    alt: "Game-Development Workshop",
     year: "2024",
-    event: "AI Workshop"
+    event: "Game-Development Workshop"
   },
   {
     id: 4,
-    src: pe7,
-    alt: "Drone Competition",
-    year: "2023",
-    event: "Drone Quest"
+    src: pe4,
+    alt: "Build With AI-Workshop",
+    year: "2025",
+    event: "Build With AI-Workshop"
   },
   {
     id: 5,
-    src: pe6,
-    alt: "Award Ceremony",
-    year: "2023",
-    event: "Awards Night"
+    src: pe5,
+    alt: "Build With AI-Workshop",
+    year: "2025",
+    event: "Build With AI-Workshop"
   },
   {
     id: 6,
-    src: pe7,
-    alt: "Tech Expo Booths",
-    year: "2023",
-    event: "Tech Expo"
+    src: pe6,
+    alt: "Science Fair ",
+    year: "2025",
+    event: "Science Fair"
   }
 ];
 
