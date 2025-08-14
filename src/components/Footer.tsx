@@ -85,15 +85,15 @@ const Footer = () => {
               <span className="ml-2">Made with 💫 for TechFest 2025</span>
             </p>
 
-            <a
+            {/* <a
               href="https://www.instagram.com/ashutosh_sahu_00"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center mt-5 justify-center gap-3 text-muted-foreground hover:text-secondary transition-colors group text-centermt-12 pt-8 border-t border-border/30 "
             >
-              <span>Designed & Developed by Ashutosh</span>
+              <span>Designed & Developed by Tech team</span>
               <Instagram className="w-5 h-5 group-hover:scale-110 transition-transform" />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
