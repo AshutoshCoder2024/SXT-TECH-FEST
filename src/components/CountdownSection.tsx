@@ -102,10 +102,6 @@ const CountdownSection = () => {
               <span className="text-foreground font-semibold">MISSION STATUS: READY FOR LAUNCH</span>
               <div className="w-3 h-3 bg-primary rounded-full animate-pulse" />
             </div>
-            
-            {/* <p className="text-muted-foreground">
-              Everything’s ready — time to make it happen.
-            </p> */}
           </div>
         </div>
         {/* Spacecraft Dashboard Elements */}

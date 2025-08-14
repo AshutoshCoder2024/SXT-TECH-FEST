@@ -127,7 +127,7 @@ const events = [
     title: "⚡ HustleHub (Hackathon)",
     description: "3 Hours • One Problem • Infinite Hustle — Code, create, and innovate under pressure to solve real-world campus problems.",
     date: "30-August",
-    time: "(11:30 PM – 2:30 PM)",
+    time: "(11:30 AM – 2:30 PM)",
     location: "College Campus - Hall- C",
     icon: "⚡",
     details: {
@@ -221,19 +221,7 @@ const events = [
         "You may choose any problem statement to implement",
         "A surprise bonus feature will be revealed mid-event",
         "💡 NOTE : Bring a fully charged laptop with a reliable internet connection to ensure uninterrupted participation."
-      ]
-      ,
-      // requirements: [
-      //   "Laptop (fully charged) with a stable internet connection",
-      //   "Ability to perform well under tight deadlines",
-      //   "Strong problem-solving and teamwork skills",
-      //   "Willingness to adapt and think creatively",
-      //   "Commitment to complete all tasks within the given timeframe"
-      // ],
-
-      // note: "Ensure you bring a fully charged laptop with a stable internet connection for smooth participation.",
-
-
+      ],
       registration: {
         fee: "Free",
         deadline: "27-August"
@@ -244,7 +232,7 @@ const events = [
     title: "🚀 Startup Xpress (Brainstorm. Build. Pitch)",
     description: "Turn your idea into a brand in 3 hours — create, design, and pitch to win.",
     date: "30-August",
-    time: "11:30am  to 2:30 pm",
+    time: "11:30 AM to 2:30 PM",
     location: "Fr. Proost Hall",
     icon: "🚀",
     details: {
@@ -279,13 +267,7 @@ const events = [
         "Respect the time limit — submissions after the deadline will not be accepted.",
         "Maintain team spirit and respect towards other participants and organizers.",
         "💡 NOTE : Bring a fully charged laptop with a reliable internet connection to ensure uninterrupted participation."
-
-
       ],
-      // requirements: [
-      //   "Laptop (fully charged) with stable internet access.",
-      //   "Positive attitude and willingness to adapt to changes."
-      // ],
       registration: {
         fee: "Free",
         deadline: "27-August"
@@ -296,8 +278,8 @@ const events = [
     title: "💡 Tech Exhibition Launch (Stalls & Demos)",
     description: "Explore innovative projects, gadgets, and demos by students and tech enthusiasts.",
     date: "29-August",
-    time: "1:00pm to 4:00 pm  ",
-    location: "College Campus: Hall-c",
+    time: "1:00 PM to 4:00 PM",
+    location: "College Campus: Hall-C",
     icon: "💡",
     details: {
       overview:
@@ -333,6 +315,7 @@ const events = [
         "A quiz competition covering technology, programming, and current trends. Compete through multiple exciting rounds to prove your knowledge.",
       rounds: [
         "Round 1: MCQ Battle – General tech knowledge",
+        "Round 2: Coding Challenge – Problem-solving with code",
         "Round 3: Rapid Fire – Quick answer challenge",
         "Round 4: Final Buzzer Round – Fastest answers win"
       ],
@@ -636,7 +619,7 @@ const EventsSection = () => {
 
                       <div className="pt-4 text-center">
                         <a
-                          href="https://forms.gle/ZsnWuaRkNnDpetZo9"
+                          href="https://docs.google.com/forms/d/e/1FAIpQLSfFP_KI1Fa1_Uf9UZMdbdfiI_9Z_JKzOo5QD06HCHZm7_5IIA/viewform"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-block"

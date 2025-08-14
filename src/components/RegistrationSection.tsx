@@ -34,7 +34,7 @@ const RegistrationSection = () => {
               </h3>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                 Join hundreds of innovators, coders, and creators for the ultimate tech experience.
-                Seats are limited — don’t miss your chance!
+                Seats are limited — don't miss your chance!
               </p>
             </div>
 
@@ -65,7 +65,6 @@ const RegistrationSection = () => {
                 <ExternalLink className="ml-2 sm:ml-3 w-4 sm:w-5 h-4 sm:h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </div>
-
 
             {/* Important Info */}
             <div className="space-y-2 text-sm text-muted-foreground">

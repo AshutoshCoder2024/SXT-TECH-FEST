@@ -23,8 +23,8 @@ const AboutSection = () => {
               </p>
               
               <p>
-                Our goal is to bring <span className="text-secondary font-semibold">tech lovers, creators, and innovators</span> under one roof. 
-                Whether you’re a beginner or an expert, this fest has something exciting for you.
+                 Our goal is to bring <span className="text-secondary font-semibold">tech lovers, creators, and innovators</span> under one roof. 
+                 Whether you're a beginner or an expert, this fest has something exciting for you.
               </p>
               
               <p>
@@ -36,21 +36,21 @@ const AboutSection = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
               <div className="cosmic-glass p-6 rounded-lg">
                 <div className="text-3xl mb-3">🌟</div>
-                <h3 className="text-xl font-semibold text-foreground mb-2">Learn</h3>
-                <p className="text-muted-foreground">Workshops and tech talks from experts</p>
-              </div>
+                 <h3 className="text-xl font-semibold text-foreground mb-2">Learn</h3>
+                 <p className="text-muted-foreground">Workshops and tech talks from experts</p>
+               </div>
               
-              <div className="cosmic-glass p-6 rounded-lg">
-                <div className="text-3xl mb-3">🤝</div>
-                <h3 className="text-xl font-semibold text-foreground mb-2">Collaborate</h3>
-                <p className="text-muted-foreground">Team up and work on amazing projects</p>
-              </div>
+               <div className="cosmic-glass p-6 rounded-lg">
+                 <div className="text-3xl mb-3">🤝</div>
+                 <h3 className="text-xl font-semibold text-foreground mb-2">Collaborate</h3>
+                 <p className="text-muted-foreground">Team up and work on amazing projects</p>
+               </div>
               
-              <div className="cosmic-glass p-6 rounded-lg">
-                <div className="text-3xl mb-3">🏆</div>
-                <h3 className="text-xl font-semibold text-foreground mb-2">Compete</h3>
-                <p className="text-muted-foreground">how your skills and win prizes</p>
-              </div>
+               <div className="cosmic-glass p-6 rounded-lg">
+                 <div className="text-3xl mb-3">🏆</div>
+                 <h3 className="text-xl font-semibold text-foreground mb-2">Compete</h3>
+                 <p className="text-muted-foreground">show your skills and win prizes</p>
+               </div>
             </div>
           </div>
         </div>

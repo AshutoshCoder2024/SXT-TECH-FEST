@@ -71,17 +71,17 @@ const ContactSection = () => {
             Get in Touch
           </h2>
           <p className="text-xl text-muted-foreground">
-            Have a question or idea? Let’s connect and make TechFest even better.
+            Have a question or idea? Let's connect and make TechFest even better.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <div className="cosmic-glass p-8 rounded-2xl cosmic-glow">
+          <div className="cosmic-glass p-8 rounded-2xl transition-all duration-300 hover:shadow-lg">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="text-center mb-8">
-                <h3 className="text-2xl font-bold text-foreground mb-2">Send Us a Messag </h3>
-                <p className="text-muted-foreground">We’d love to hear from you — drop your thoughts below</p>
+                <h3 className="text-2xl font-bold text-foreground mb-2">Send Us a Message </h3>
+                <p className="text-muted-foreground">We'd love to hear from you — drop your thoughts below</p>
               </div>
 
               {/* Name Input */}
@@ -96,7 +96,7 @@ const ContactSection = () => {
                   required
                   value={formData.name}
                   onChange={handleChange}
-                  className="cosmic-glass border-border/50 focus:border-primary bg-card/50"
+                  className="cosmic-glass border-border/50 focus:border-primary bg-card/50 transition-colors duration-200"
                   placeholder="Enter your name"
                 />
               </div>
@@ -113,7 +113,7 @@ const ContactSection = () => {
                   required
                   value={formData.email}
                   onChange={handleChange}
-                  className="cosmic-glass border-border/50 focus:border-primary bg-card/50"
+                  className="cosmic-glass border-border/50 focus:border-primary bg-card/50 transition-colors duration-200"
                   placeholder="xyz@gmail.com"
                 />
               </div>
@@ -130,7 +130,7 @@ const ContactSection = () => {
                   rows={6}
                   value={formData.message}
                   onChange={handleChange}
-                  className="cosmic-glass border-border/50 focus:border-primary bg-card/50 resize-none"
+                  className="cosmic-glass border-border/50 focus:border-primary bg-card/50 resize-none transition-colors duration-200"
                   placeholder="Tell us about your  message..."
                 />
               </div>
@@ -139,7 +139,7 @@ const ContactSection = () => {
               <Button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full cosmic-button text-lg py-6 group"
+                className="w-full cosmic-button text-lg py-6 group transition-all duration-300 hover:scale-[1.02]"
               >
                 {isSubmitting ? (
                   <>
@@ -149,7 +149,7 @@ const ContactSection = () => {
                 ) : (
                   <>
                     🚀 Send Message
-                    <Send className="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                    <Send className="ml-3 w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
                   </>
                 )}
               </Button>
@@ -158,7 +158,7 @@ const ContactSection = () => {
 
           {/* Contact Info Panel */}
           <div className="space-y-8">
-            <div className="cosmic-glass p-8 rounded-2xl cosmic-glow">
+            <div className="cosmic-glass p-8 rounded-2xl transition-all duration-300 hover:shadow-lg">
               <h3 className="text-2xl font-bold text-foreground mb-6">Contact Us</h3>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
@@ -167,7 +167,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <div className="font-semibold text-foreground">Email</div>
-                    <a href="mailto:xts@sxcran.org" className="text-primary hover:text-primary/80">
+                    <a href="mailto:xts@sxcran.org" className="text-primary hover:text-primary/80 transition-colors duration-200">
                       xts@sxcran.org
                     </a>
                   </div>
@@ -179,7 +179,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <div className="font-semibold text-foreground">Direct Communication</div>
-                    <a href="tel:+9798535039" className="text-secondary hover:text-secondary/80">
+                    <a href="tel:+9798535039" className="text-secondary hover:text-secondary/80 transition-colors duration-200">
                       +91 9798535039
                     </a>
                     
@@ -204,7 +204,7 @@ const ContactSection = () => {
             </div>
 
             {/* Quick Navigation */}
-            <div className="cosmic-glass p-6 rounded-xl cosmic-glow">
+            <div className="cosmic-glass p-6 rounded-xl transition-all duration-300 hover:shadow-lg">
               <h4 className="text-lg font-bold text-foreground mb-4">Quick Navigation</h4>
               <div className="grid grid-cols-2 gap-3">
                 {[
@@ -214,24 +214,15 @@ const ContactSection = () => {
                   { label: "FAQ", href: "#faq" }
                 ].map((link, index) => (
                   <button
-                    key={index} // Added a unique key for each item, which is a best practice in React
+                    key={index}
                     onClick={() => document.querySelector(link.href)?.scrollIntoView({ behavior: 'smooth' })}
-                    className="text-left p-2 text-muted-foreground hover:text-primary transition-colors text-sm"
+                    className="text-left p-2 text-muted-foreground hover:text-primary transition-colors duration-200 text-sm"
                   >
                     → {link.label}
                   </button>
                 ))}
               </div>
             </div>
-          </div>
-        </div>
-
-        {/* Radar Animation */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-10">
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            <div className="w-96 h-96 border border-primary rounded-full animate-ping" />
-            <div className="absolute inset-8 border border-secondary rounded-full animate-ping" style={{ animationDelay: '1s' }} />
-            <div className="absolute inset-16 border border-accent rounded-full animate-ping" style={{ animationDelay: '2s' }} />
           </div>
         </div>
       </div>

@@ -134,11 +134,6 @@ const TimelineSection = () => {
                         <p className="text-accent font-medium">
                           {stop.date}
                         </p>
-                        {/* Time*/}
-                        {/* <p className="text-accent font-medium">
-                          {stop.time}
-                        </p> */}
-
 
                         {/* Description */}
                         <p className="text-muted-foreground leading-relaxed">
