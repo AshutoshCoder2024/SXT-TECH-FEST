@@ -11,7 +11,7 @@ const events = [
     icon: "🤖",
     details: {
       overview:
-        "An interactive workshop conducted by MeitY professionals, covering AI basics, real-world applications, and future trends. Includes live demos and Q&A sessions to enhance your understanding.",
+        "An interactive workshop conducted by MeitY professionals, covering AI and ML fundamentals, real-world applications, and future trends. Includes live demos and Q&A sessions to enhance your understanding.",
       topics: [
         "Introduction to Artificial Intelligence",
         "Machine Learning vs Deep Learning",

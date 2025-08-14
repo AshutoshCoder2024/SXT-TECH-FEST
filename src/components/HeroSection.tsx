@@ -60,8 +60,8 @@ const HeroSection = () => {
           </h2>
           {/* More descriptive body text */}
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-                        Dive into coding, creativity, and tech magic — the ultimate celebration of innovation and skills.
-</p>
+            Dive into coding, creativity, and tech magic — the ultimate celebration of innovation and skills.
+          </p>
         </div>
 
         {/* CTA Button with thematic text */}
@@ -69,12 +69,15 @@ const HeroSection = () => {
           <Button
             size="lg"
             className="cosmic-button text-lg px-8 py-6 hover:scale-105 transition-all duration-300"
-            onClick={scrollToRegistration}
-            aria-label="Register for InnoVerse TECHFEST 2025"
+            asChild
           >
-            🚀 Blast Off & Register
-          </Button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFP_KI1Fa1_Uf9UZMdbdfiI_9Z_JKzOo5QD06HCHZm7_5IIA/viewform" target="_blank" rel="noopener noreferrer">
+              🚀 Blast Off & Register
+            </a>
+          </Button>   
+
         </div>
+
 
         {/* Event Dates - No changes needed, it's clear and effective */}
         <div className="cosmic-glass p-4 rounded-lg inline-block">
