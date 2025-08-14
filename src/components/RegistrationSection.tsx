@@ -4,7 +4,7 @@ import { ExternalLink } from "lucide-react";
 const RegistrationSection = () => {
   const handleRegistration = () => {
     // Replace with actual Google Form link
-    window.open('https://forms.gle/ZsnWuaRkNnDpetZo9', '_blank');
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSfFP_KI1Fa1_Uf9UZMdbdfiI_9Z_JKzOo5QD06HCHZm7_5IIA/viewform', '_blank');
   };
 
   return (
