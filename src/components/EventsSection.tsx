@@ -50,7 +50,7 @@ const events = [
       //   "🥉 3rd Place: Certificate + Goodies"
       // ],
       rules: [
-        "Teams can have 1–3 members.",
+        "Teams can have 1–4 members.",
         "Robots must be self-built or custom-modified (no ready-made toy cars).",
         "Touching the robot during the race is not allowed unless instructed by the referee.",
         "If a robot goes off-track, it must restart from the last checkpoint.",
@@ -320,7 +320,7 @@ const events = [
         "Round 4: Final Buzzer Round – Fastest answers win"
       ],
       rules: [
-        "Teams of 2–3 members",
+        "Teams of 2–4 members",
         "No use of mobile phones or gadgets",
         "Tie-breaker will be used if scores are equal",
         "💡 NOTE : Bring a fully charged laptop only for coding round"
