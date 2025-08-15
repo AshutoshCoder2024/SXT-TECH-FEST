@@ -217,7 +217,7 @@ const events = [
       //   "🥉 3rd Place: Certificate + Goodies"
       // ],
       rules: [
-        "Teams of 2–4 members",
+        "Teams must have 2–4 members.",
         "You may choose any problem statement to implement",
         "A surprise bonus feature will be revealed mid-event",
         "💡 NOTE : Bring a fully charged laptop with a reliable internet connection to ensure uninterrupted participation."
@@ -291,6 +291,7 @@ const events = [
         "One-on-one interaction with creators"
       ],
       rules: [
+        "Teams must have 2–4 members.",
         "Participants must set up stalls before the event starts",
         "Ensure safety measures for live demos",
         "No hazardous materials or unsafe devices allowed",
@@ -320,7 +321,7 @@ const events = [
         "Round 4: Final Buzzer Round – Fastest answers win"
       ],
       rules: [
-        "Teams of 2–4 members",
+        "Teams can  have 1–4 members.",
         "No use of mobile phones or gadgets",
         "Tie-breaker will be used if scores are equal",
         "💡 NOTE : Bring a fully charged laptop only for coding round"
@@ -331,6 +332,7 @@ const events = [
       }
     }
   },
+
 ];
 const EventsSection = () => {
   return (
