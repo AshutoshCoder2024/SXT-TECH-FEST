@@ -70,7 +70,7 @@ const events = [
   {
     title: "🎥 FestFrame (PR & Creative Challenge)",
     description: "Capture the spirit of TechFest and create an unforgettable highlight video.",
-    date: "TechFest 2 Days(29-30)",
+    date: "29-August",
     time: "All Day",
     location: "Campus",
     icon: "🎥",
@@ -127,7 +127,7 @@ const events = [
     title: "⚡ HustleHub (Hackathon)",
     description: "3 Hours • One Problem • Infinite Hustle — Code, create, and innovate under pressure to solve real-world campus problems.",
     date: "30-August",
-    time: "(11:30 AM – 2:30 PM)",
+    time: "11:30 AM – 2:30 PM",
     location: "College Campus - Hall- C",
     icon: "⚡",
     details: {
@@ -307,7 +307,7 @@ const events = [
   {
     title: "🧠 Tech Quest (Quiz Challenge)",
     description: "Test your tech knowledge with fun and challenging rounds.",
-    date: "30-August",
+    date: "29-August",
     time: "11:00 AM – 1:00 PM",
     location: "College Campus -Hall-c",
     icon: "🧠",
@@ -332,6 +332,32 @@ const events = [
       }
     }
   },
+  {
+  title: "🎮 HP OMEN × XTS – Gaming Arena",
+  description: "Step into the ultimate gaming arena at Innoverse Techfest 2025 and experience the thrill of competitive gaming.",
+  date: "29-August",
+  time: "11:00 AM - 4:00 PM",
+  location: "College Campus",
+  icon: "🎮",
+  details: {
+    overview:
+      "HP (Hewlett-Packard) OMEN × XTS are bringing the ultimate gaming arena to Innoverse Techfest 2025! Get ready to test your skills in games like Asphalt 9, Valorant, and Tekken. Whether you’re a casual gamer or a pro, the adrenaline rush is guaranteed! Step into the INNOVERSE × HP OMEN Gaming Arena and experience gaming like never before.",
+    topics: [
+      "🏎 Play Asphalt 9",
+      "🎯 Compete in Valorant",
+      "🥋 Battle in Tekken",
+      "⚡ Adrenaline-pumping matches",
+      "🔥 Ultimate gaming experience"
+    ],
+    rules: [
+    ],
+    registration: {
+      fee: "Free",
+      deadline: "TBD"
+    }
+  }
+}
+
 
 ];
 const EventsSection = () => {
