@@ -52,6 +52,7 @@ const events = [
       rules: [
         "Teams can have 1–4 members.",
         "Robots must be self-built or custom-modified (no ready-made toy cars).",
+        "Robot dimensions must be: Length 20–30 cm, Breadth 15–20 cm, and Height max 20 cm.",
         "Touching the robot during the race is not allowed unless instructed by the referee.",
         "If a robot goes off-track, it must restart from the last checkpoint.",
         "Judges’ decisions will be final and binding."
@@ -333,30 +334,30 @@ const events = [
     }
   },
   {
-  title: "🎮 HP OMEN × XTS – Gaming Arena",
-  description: "Step into the ultimate gaming arena at Innoverse Techfest 2025 and experience the thrill of competitive gaming.",
-  date: "29-August",
-  time: "11:00 AM - 4:00 PM",
-  location: "College Campus",
-  icon: "🎮",
-  details: {
-    overview:
-      "HP (Hewlett-Packard) OMEN × XTS are bringing the ultimate gaming arena to Innoverse Techfest 2025! Get ready to test your skills in games like Asphalt 9, Valorant, and Tekken. Whether you’re a casual gamer or a pro, the adrenaline rush is guaranteed! Step into the INNOVERSE × HP OMEN Gaming Arena and experience gaming like never before.",
-    topics: [
-      "🏎 Play Asphalt 9",
-      "🎯 Compete in Valorant",
-      "🥋 Battle in Tekken",
-      "⚡ Adrenaline-pumping matches",
-      "🔥 Ultimate gaming experience"
-    ],
-    rules: [
-    ],
-    registration: {
-      fee: "Free",
-      deadline: "TBD"
+    title: "🎮 HP OMEN × XTS – Gaming Arena",
+    description: "Step into the ultimate gaming arena at Innoverse Techfest 2025 and experience the thrill of competitive gaming.",
+    date: "29-August",
+    time: "11:00 AM - 4:00 PM",
+    location: "College Campus",
+    icon: "🎮",
+    details: {
+      overview:
+        "HP (Hewlett-Packard) OMEN × XTS are bringing the ultimate gaming arena to Innoverse Techfest 2025! Get ready to test your skills in games like Asphalt 9, Valorant, and Tekken. Whether you’re a casual gamer or a pro, the adrenaline rush is guaranteed! Step into the INNOVERSE × HP OMEN Gaming Arena and experience gaming like never before.",
+      topics: [
+        "🏎 Play Asphalt 9",
+        "🎯 Compete in Valorant",
+        "🥋 Battle in Tekken",
+        "⚡ Adrenaline-pumping matches",
+        "🔥 Ultimate gaming experience"
+      ],
+      rules: [
+      ],
+      registration: {
+        fee: "Free",
+        deadline: "TBD"
+      }
     }
   }
-}
 
 
 ];
