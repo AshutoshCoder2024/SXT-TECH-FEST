@@ -276,7 +276,7 @@ const events = [
     }
   },
   {
-    title: "💡 Tech Exhibition Launch (Stalls & Demos)",
+    title: "💡 Tech Exhibition ",
     description: "Explore innovative projects, gadgets, and demos by students and tech enthusiasts.",
     date: "29-August",
     time: "1:00 PM to 4:00 PM",
@@ -293,7 +293,7 @@ const events = [
       ],
       rules: [
         "Teams must have 2–4 members.",
-        "Participants must set up stalls before the event starts",
+        "Participants must set up  before the event starts",
         "Ensure safety measures for live demos",
         "No hazardous materials or unsafe devices allowed",
         "Maintain cleanliness and professionalism at stalls",
