@@ -275,36 +275,36 @@ const events = [
       }
     }
   },
-  {
-    title: "💡 Tech Exhibition ",
-    description: "Explore innovative projects, gadgets, and demos by students and tech enthusiasts.",
-    date: "29-August",
-    time: "1:00 PM to 4:00 PM",
-    location: "College Campus: Hall-C",
-    icon: "💡",
-    details: {
-      overview:
-        "An open exhibition where students and innovators showcase their projects, working models, and tech prototypes. Visitors can explore stalls, interact with creators, and experience hands-on demos.",
-      highlights: [
-        "Live demonstrations of projects",
-        "Innovative gadgets and prototypes",
-        "Interactive tech stalls",
-        "One-on-one interaction with creators"
-      ],
-      rules: [
-        "Teams must have 2–4 members.",
-        "Participants must set up  before the event starts",
-        "Ensure safety measures for live demos",
-        "No hazardous materials or unsafe devices allowed",
-        "Maintain cleanliness and professionalism at stalls",
-        "💡 NOTE : Bring all necessary materials, chargers, and extension boards for your setup"
-      ],
-      registration: {
-        fee: "Free",
-        deadline: "27-August"
-      }
-    }
-  },
+  // {
+  //   title: "💡 Tech Exhibition ",
+  //   description: "Explore innovative projects, gadgets, and demos by students and tech enthusiasts.",
+  //   date: "29-August",
+  //   time: "1:00 PM to 4:00 PM",
+  //   location: "College Campus: Hall-C",
+  //   icon: "💡",
+  //   details: {
+  //     overview:
+  //       "An open exhibition where students and innovators showcase their projects, working models, and tech prototypes. Visitors can explore stalls, interact with creators, and experience hands-on demos.",
+  //     highlights: [
+  //       "Live demonstrations of projects",
+  //       "Innovative gadgets and prototypes",
+  //       "Interactive tech stalls",
+  //       "One-on-one interaction with creators"
+  //     ],
+  //     rules: [
+  //       "Teams must have 2–4 members.",
+  //       "Participants must set up  before the event starts",
+  //       "Ensure safety measures for live demos",
+  //       "No hazardous materials or unsafe devices allowed",
+  //       "Maintain cleanliness and professionalism at stalls",
+  //       "💡 NOTE : Bring all necessary materials, chargers, and extension boards for your setup"
+  //     ],
+  //     registration: {
+  //       fee: "Free",
+  //       deadline: "27-August"
+  //     }
+  //   }
+  // },
   {
     title: "🧠 Tech Quest (Quiz Challenge)",
     description: "Test your tech knowledge with fun and challenging rounds.",
