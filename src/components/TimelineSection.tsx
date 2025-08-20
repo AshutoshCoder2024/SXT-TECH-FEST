@@ -27,13 +27,13 @@ const timelineStops = [
     time: "1:30 PM – 2:00 PM",
     description: "Fast-paced F1-themed robot race at the Basketball Court."
   },
-  {
-    milestone: "🚀 Future Showcase",
-    event: "Tech Exhibition Launch",
-    date: "Day 1 – August 30, 2025",
-    time: "10:00 AM – 1:00 PM",
-    description: "Opening of stalls and demos showcasing cutting-edge innovations."
-  },
+  // {
+  //   milestone: "🚀 Future Showcase",
+  //   event: "Tech Exhibition Launch",
+  //   date: "Day 1 – August 30, 2025",
+  //   time: "10:00 AM – 1:00 PM",
+  //   description: "Opening of stalls and demos showcasing cutting-edge innovations."
+  // },
 
   {
     milestone: "🎮 Gaming Arena",
