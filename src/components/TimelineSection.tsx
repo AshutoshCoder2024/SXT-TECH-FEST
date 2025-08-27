@@ -49,11 +49,10 @@ const timelineStops = [
     time: "All Day",
     description: "On-ground coverage and highlight video creation capturing the best moments of Day 1."
   },
-
   {
     milestone: "⚡ HustleHub",
     event: "Hackathon",
-    date: "Day 2 – August 30, 2025",
+    date: "Day 2 – August 29, 2025",
     time: "1:00 PM – 4:00 PM",
     description: "3-hour coding sprint to solve college  campus life problem ."
   },
@@ -61,13 +60,9 @@ const timelineStops = [
     milestone: "🚀 Startup Sprint",
     event: "StartupXpress",
     date: "Day 2 – August 30, 2025",
-    time: "11:00 AM – 2:00 PM",
+    time: "1:00 AM – 4:00 PM",
     description: "3-hour challenge to create a brand and pitch your startup idea in Fr. Proost Hall."
   },
-
-
-
-
   {
     milestone: "🎥 Final Cut",
     event: "PR & Creative Final Video Presentation",
