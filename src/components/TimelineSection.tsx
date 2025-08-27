@@ -52,7 +52,7 @@ const timelineStops = [
   {
     milestone: "⚡ HustleHub",
     event: "Hackathon",
-    date: "Day 2 – August 29, 2025",
+    date: "Day 1 – August 29, 2025",
     time: "1:00 PM – 4:00 PM",
     description: "3-hour coding sprint to solve college  campus life problem ."
   },
