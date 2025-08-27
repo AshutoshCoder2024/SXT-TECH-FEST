@@ -127,8 +127,8 @@ const events = [
   {
     title: "⚡ HustleHub (Hackathon)",
     description: "3 Hours • One Problem • Infinite Hustle — Code, create, and innovate under pressure to solve real-world campus problems.",
-    date: "30-August",
-    time: "11:30 AM – 2:30 PM",
+    date: "29-August",
+    time: "1:00 PM – 4:00 PM",
     location: "College Campus - Hall- C",
     icon: "⚡",
     details: {
@@ -233,7 +233,7 @@ const events = [
     title: "🚀 Startup Xpress (Brainstorm. Build. Pitch)",
     description: "Turn your idea into a brand in 3 hours — create, design, and pitch to win.",
     date: "30-August",
-    time: "11:30 AM to 2:30 PM",
+    time: "1:00 PM to 4:00 PM",
     location: "Fr. Proost Hall",
     icon: "🚀",
     details: {
@@ -309,7 +309,7 @@ const events = [
     title: "🧠 Tech Quest (Quiz Challenge)",
     description: "Test your tech knowledge with fun and challenging rounds.",
     date: "29-August",
-    time: "11:00 AM – 1:00 PM",
+    time: "1:30 AM – 2:30 PM",
     location: "College Campus -Hall-c",
     icon: "🧠",
     details: {
