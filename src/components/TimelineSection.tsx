@@ -21,6 +21,13 @@ const timelineStops = [
   //   description: "Fun and engaging tech challenges and quizzes running alongside the exhibition."
   // },
   {
+    milestone: "⚡ HustleHub",
+    event: "Hackathon",
+    date: "Day 1 – August 29, 2025",
+    time: "1:00 PM – 4:00 PM",
+    description: "3-hour coding sprint to solve college  campus life problem ."
+  },
+  {
     milestone: "🤖 RoboRush F1",
     event: "Robot Race",
     date: "Day 1 – August 29, 2025",
@@ -49,13 +56,7 @@ const timelineStops = [
     time: "All Day",
     description: "On-ground coverage and highlight video creation capturing the best moments of Day 1."
   },
-  {
-    milestone: "⚡ HustleHub",
-    event: "Hackathon",
-    date: "Day 1 – August 29, 2025",
-    time: "1:00 PM – 4:00 PM",
-    description: "3-hour coding sprint to solve college  campus life problem ."
-  },
+  
   {
     milestone: "🚀 Startup Sprint",
     event: "StartupXpress",

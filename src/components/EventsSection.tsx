@@ -308,8 +308,8 @@ const events = [
   {
     title: "🧠 Tech Quest (Quiz Challenge)",
     description: "Test your tech knowledge with fun and challenging rounds.",
-    date: "29-August",
-    time: "1:30 AM – 2:30 PM",
+    date: "30-August",
+    time: "1:30 PM – 2:30 PM",
     location: "College Campus -Hall-c",
     icon: "🧠",
     details: {
