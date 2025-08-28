@@ -10,7 +10,7 @@ const timelineStops = [
     milestone: "🤖 AI-ML Insights",
     event: "Workshop – AI, ML by MeitY",
     date: "Day 1 – August 29, 2025",
-    time: "11:00 AM – 12:30 PM",
+    time: "12:20 PM – 1:30 PM",
     description: "1.5-hour interactive workshop on Artificial Intelligence, led by experts from MeitY."
   },
   // {
@@ -31,7 +31,7 @@ const timelineStops = [
     milestone: "🤖 RoboRush F1",
     event: "Robot Race",
     date: "Day 1 – August 29, 2025",
-    time: "1:30 PM – 2:00 PM",
+    time: "2:00 PM – 3:00 PM",
     description: "Fast-paced F1-themed robot race at the Basketball Court."
   },
   // {
@@ -42,13 +42,13 @@ const timelineStops = [
   //   description: "Opening of stalls and demos showcasing cutting-edge innovations."
   // },
 
-  {
-    milestone: "🎮 Gaming Arena",
-    event: "Esports Tournament by HP",
-    date: "Day 1 – August 29, 2025",
-    time: "11:00 AM – 4:00 PM",
-    description: "Exciting gaming battles running parallel to other events."
-  },
+  // {
+  //   milestone: "🎮 Gaming Arena",
+  //   event: "Esports Tournament by HP",
+  //   date: "Day 1 – August 29, 2025",
+  //   time: "11:00 AM – 4:00 PM",
+  //   description: "Exciting gaming battles running parallel to other events."
+  // },
   {
     milestone: "📸 Creative Spotlight",
     event: "PR & Creative Coverage",

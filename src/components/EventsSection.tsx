@@ -6,7 +6,7 @@ const events = [
     title: "🤖 Workshop – AI ML by MeitY",
     description: "Learn the fundamentals and applications of Artificial Intelligence  and Machine Learing from MeitY experts.",
     date: "29-August",
-    time: "TBD",
+    time: "12:20 PM - 1:30 PM",
     location: "College Campus - Hall-C",
     icon: "🤖",
     details: {
@@ -33,7 +33,7 @@ const events = [
     title: "🤖 RoboRush F1",
     description: "Build, race, and dominate the F1-inspired robot track.",
     date: "29-August",
-    time: "TBD",
+    time: "2:00 PM 3:00 PM",
     location: "Basketball Court",
     icon: "🤖",
     details: {
@@ -333,31 +333,31 @@ const events = [
       }
     }
   },
-  {
-    title: "🎮 HP OMEN × XTS – Gaming Arena",
-    description: "Step into the ultimate gaming arena at Innoverse Techfest 2025 and experience the thrill of competitive gaming.",
-    date: "29-August",
-    time: "11:00 AM - 4:00 PM",
-    location: "College Campus",
-    icon: "🎮",
-    details: {
-      overview:
-        "HP (Hewlett-Packard) OMEN × XTS are bringing the ultimate gaming arena to Innoverse Techfest 2025! Get ready to test your skills in games like Asphalt 9, Valorant, and Tekken. Whether you’re a casual gamer or a pro, the adrenaline rush is guaranteed! Step into the INNOVERSE × HP OMEN Gaming Arena and experience gaming like never before.",
-      topics: [
-        "🏎 Play Asphalt 9",
-        "🎯 Compete in Valorant",
-        "🥋 Battle in Tekken",
-        "⚡ Adrenaline-pumping matches",
-        "🔥 Ultimate gaming experience"
-      ],
-      rules: [
-      ],
-      registration: {
-        fee: "Free",
-        deadline: "TBD"
-      }
-    }
-  }
+  // {
+  //   title: "🎮 HP OMEN × XTS – Gaming Arena",
+  //   description: "Step into the ultimate gaming arena at Innoverse Techfest 2025 and experience the thrill of competitive gaming.",
+  //   date: "29-August",
+  //   time: "11:00 AM - 4:00 PM",
+  //   location: "College Campus",
+  //   icon: "🎮",
+  //   details: {
+  //     overview:
+  //       "HP (Hewlett-Packard) OMEN × XTS are bringing the ultimate gaming arena to Innoverse Techfest 2025! Get ready to test your skills in games like Asphalt 9, Valorant, and Tekken. Whether you’re a casual gamer or a pro, the adrenaline rush is guaranteed! Step into the INNOVERSE × HP OMEN Gaming Arena and experience gaming like never before.",
+  //     topics: [
+  //       "🏎 Play Asphalt 9",
+  //       "🎯 Compete in Valorant",
+  //       "🥋 Battle in Tekken",
+  //       "⚡ Adrenaline-pumping matches",
+  //       "🔥 Ultimate gaming experience"
+  //     ],
+  //     rules: [
+  //     ],
+  //     registration: {
+  //       fee: "Free",
+  //       deadline: "TBD"
+  //     }
+  //   }
+  // }
 
 
 ];
